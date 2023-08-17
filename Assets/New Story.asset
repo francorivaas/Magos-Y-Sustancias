@@ -1,0 +1,5922 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: New Story
+  m_EditorClassIdentifier: 
+  links:
+  - guid: 6f35aa99-6541-4f4e-8308-6ab954bb73d6
+    targetGuid: fc2b221d-13fd-4174-afa2-195713932824
+    portId: 0
+  - guid: fc2b221d-13fd-4174-afa2-195713932824
+    targetGuid: 02964558-05dc-4514-a6e0-6ca3d495a188
+    portId: 1
+  - guid: 02964558-05dc-4514-a6e0-6ca3d495a188
+    targetGuid: 4e2ddece-95f4-4ff1-804e-59d013c60af4
+    portId: 2
+  - guid: 4e2ddece-95f4-4ff1-804e-59d013c60af4
+    targetGuid: dc0daa94-8ae5-42ca-9af7-5416f0b2f729
+    portId: 3
+  - guid: f9b63133-5c2c-4ec0-ac08-9aea89ed7ca4
+    targetGuid: 87ecb37b-518e-4530-bf6d-00b85b5a7ed8
+    portId: 4
+  - guid: dc0daa94-8ae5-42ca-9af7-5416f0b2f729
+    targetGuid: 58f750de-546a-41ce-b9f7-3564780d284b
+    portId: 5
+  - guid: 58f750de-546a-41ce-b9f7-3564780d284b
+    targetGuid: f9b63133-5c2c-4ec0-ac08-9aea89ed7ca4
+    portId: 6
+  - guid: 87ecb37b-518e-4530-bf6d-00b85b5a7ed8
+    targetGuid: 39312815-a7af-461e-b229-d18a4847134e
+    portId: 7
+  - guid: 39312815-a7af-461e-b229-d18a4847134e
+    targetGuid: b5ea2edb-9fc9-4b19-b5b3-fdc37703bcad
+    portId: 8
+  - guid: 93c66f46-8aa0-4807-a31a-e8ce1931c6ce
+    targetGuid: 6d458c65-7610-4db5-9964-30d3918ecb9a
+    portId: 9
+  - guid: b5b3ff4b-e11a-4c7f-a56e-749388e5db2e
+    targetGuid: e60106e1-a8b8-4e3d-bc3e-9f5fc076891e
+    portId: 10
+  - guid: e60106e1-a8b8-4e3d-bc3e-9f5fc076891e
+    targetGuid: 2fc8cb5a-3e75-4480-9abe-a726c488d6ee
+    portId: 11
+  - guid: 2fc8cb5a-3e75-4480-9abe-a726c488d6ee
+    targetGuid: c63e2c2d-2d60-43fd-8f74-406e4521dd04
+    portId: 12
+  - guid: c63e2c2d-2d60-43fd-8f74-406e4521dd04
+    targetGuid: 1b3d9ab9-88a9-4171-ab0f-240a30ba67e0
+    portId: 13
+  - guid: 483024ef-ee78-412b-baac-474d51607a60
+    targetGuid: 3c045561-8da7-48d3-9177-cd75d9600ee2
+    portId: 14
+  - guid: 21043558-c13b-44f5-a3df-5212b7bc9980
+    targetGuid: a5da27dd-3162-4d3b-8009-a8452c71fbe2
+    portId: 15
+  - guid: a5da27dd-3162-4d3b-8009-a8452c71fbe2
+    targetGuid: d315e189-347b-4e87-8bc0-fcb3d5c93e86
+    portId: 16
+  - guid: d315e189-347b-4e87-8bc0-fcb3d5c93e86
+    targetGuid: 1728024e-bd8c-49c0-bc60-bd34375a2a65
+    portId: 17
+  - guid: 1728024e-bd8c-49c0-bc60-bd34375a2a65
+    targetGuid: e9ea0e55-0100-4e1a-8076-5bff52e1c1ad
+    portId: 18
+  - guid: e9ea0e55-0100-4e1a-8076-5bff52e1c1ad
+    targetGuid: 21ba2b22-76c5-41dc-94ec-e08a6c428d21
+    portId: 19
+  - guid: 21ba2b22-76c5-41dc-94ec-e08a6c428d21
+    targetGuid: efb6201a-cc99-4cfc-9c4a-05e0899d41aa
+    portId: 20
+  - guid: efb6201a-cc99-4cfc-9c4a-05e0899d41aa
+    targetGuid: 3fff9a83-04be-4e3d-b3dc-eedf4c2146dc
+    portId: 21
+  - guid: 3fff9a83-04be-4e3d-b3dc-eedf4c2146dc
+    targetGuid: 58bf53a5-c145-41a8-99fa-9d2e882d9df3
+    portId: 22
+  - guid: 58bf53a5-c145-41a8-99fa-9d2e882d9df3
+    targetGuid: 5983e4dc-4a6c-4611-9670-f90398b9a212
+    portId: 23
+  - guid: 5983e4dc-4a6c-4611-9670-f90398b9a212
+    targetGuid: 01c241e9-74ed-48b9-b323-c622f620b45f
+    portId: 24
+  - guid: 01c241e9-74ed-48b9-b323-c622f620b45f
+    targetGuid: 5758276e-9a0e-4bbe-8b28-4cbaffdc0594
+    portId: 25
+  - guid: 5758276e-9a0e-4bbe-8b28-4cbaffdc0594
+    targetGuid: 1fbb2f5d-4b75-4635-a55a-06af22c64065
+    portId: 26
+  - guid: 1fbb2f5d-4b75-4635-a55a-06af22c64065
+    targetGuid: 68cb547c-a6cb-4954-b5e6-a3e9e4df241f
+    portId: 27
+  - guid: 68cb547c-a6cb-4954-b5e6-a3e9e4df241f
+    targetGuid: c5ab4766-180d-42ad-a8f3-5dc538ad9d93
+    portId: 28
+  - guid: c5ab4766-180d-42ad-a8f3-5dc538ad9d93
+    targetGuid: 89a54c36-e43c-4f4f-8c48-f9c3bdf9ab16
+    portId: 29
+  - guid: f8aad13c-e580-4a45-8d3a-656ac09e4612
+    targetGuid: 79d2604e-e335-44ca-88fd-d268cf6d636f
+    portId: 30
+  - guid: 79d2604e-e335-44ca-88fd-d268cf6d636f
+    targetGuid: c6ad9f35-24d9-401e-9609-9e49a2577a83
+    portId: 31
+  - guid: c6ad9f35-24d9-401e-9609-9e49a2577a83
+    targetGuid: ff33867e-c096-493c-9a1b-e126efebcfe7
+    portId: 32
+  - guid: 94425fef-81c7-47f3-a96b-82202d22d4ed
+    targetGuid: 1508fc68-4289-4594-a239-b8ed45504f9b
+    portId: 33
+  - guid: 5f999d4f-168f-4f35-8a21-5d1ab296fc6d
+    targetGuid: 2a9ab41c-4da5-41b2-a253-75d45a8e9605
+    portId: 34
+  - guid: 3df2ccef-d81a-45ca-9988-63efecf906c3
+    targetGuid: a673e706-02fb-4326-9d89-91a91fb1dac8
+    portId: 35
+  - guid: 1508fc68-4289-4594-a239-b8ed45504f9b
+    targetGuid: 5f999d4f-168f-4f35-8a21-5d1ab296fc6d
+    portId: 36
+  - guid: 2a9ab41c-4da5-41b2-a253-75d45a8e9605
+    targetGuid: 3df2ccef-d81a-45ca-9988-63efecf906c3
+    portId: 37
+  - guid: a673e706-02fb-4326-9d89-91a91fb1dac8
+    targetGuid: 466f0ab2-ebd2-4ed3-b6eb-c10c53b03711
+    portId: 38
+  - guid: a673e706-02fb-4326-9d89-91a91fb1dac8
+    targetGuid: d303501d-2228-4e89-acb3-487f5687cf1a
+    portId: 39
+  - guid: e50efd6f-ea53-4a9b-a517-17e2c94ea414
+    targetGuid: 4976b0b0-a854-4f74-baa0-53c88a0b0737
+    portId: 40
+  - guid: d16e5d08-c640-4b68-ba20-db5277241640
+    targetGuid: e50efd6f-ea53-4a9b-a517-17e2c94ea414
+    portId: 41
+  - guid: 1264d673-8ba2-49dc-8984-8b72e085b83d
+    targetGuid: d16e5d08-c640-4b68-ba20-db5277241640
+    portId: 42
+  - guid: d2551a53-cbc4-4922-974b-e2d5c055044b
+    targetGuid: bcd1e233-8230-4f1e-8794-16307b12ed57
+    portId: 43
+  - guid: 79725386-4514-4f85-a570-b9e581aec945
+    targetGuid: d2551a53-cbc4-4922-974b-e2d5c055044b
+    portId: 44
+  - guid: 0f9e8726-58f5-4fb2-9682-9ef55cddd8ff
+    targetGuid: 4976b0b0-a854-4f74-baa0-53c88a0b0737
+    portId: 45
+  - guid: 466f0ab2-ebd2-4ed3-b6eb-c10c53b03711
+    targetGuid: 79725386-4514-4f85-a570-b9e581aec945
+    portId: 46
+  - guid: 260e9650-8c30-473e-9e60-3fc6ca1ffbad
+    targetGuid: 6f35aa99-6541-4f4e-8308-6ab954bb73d6
+    portId: 47
+  - guid: 18e966a0-2256-4904-894a-fe032c017e46
+    targetGuid: 4d64b675-c140-4595-92c8-532f8987fcc7
+    portId: 48
+  - guid: 4d64b675-c140-4595-92c8-532f8987fcc7
+    targetGuid: eb1e73d0-5d0a-4726-baf1-d840f747cff9
+    portId: 49
+  - guid: eb1e73d0-5d0a-4726-baf1-d840f747cff9
+    targetGuid: f1ed2997-d548-44ef-a2af-56e041086904
+    portId: 50
+  - guid: f1ed2997-d548-44ef-a2af-56e041086904
+    targetGuid: 3eed6d3a-27fa-40a5-951e-b4608e076746
+    portId: 51
+  - guid: bc003695-7a45-488e-b639-36d21040d6fb
+    targetGuid: f27919d7-927c-432f-b70b-34f7787932fc
+    portId: 52
+  - guid: f27919d7-927c-432f-b70b-34f7787932fc
+    targetGuid: d653cb33-90a3-4492-96a5-94d7892143d4
+    portId: 53
+  - guid: 0d1c9998-0d41-44c3-823a-bb400f7bb26c
+    targetGuid: 529d5bac-0f91-4268-8735-86280cb7ed73
+    portId: 54
+  - guid: 529d5bac-0f91-4268-8735-86280cb7ed73
+    targetGuid: dc4e3fb8-7a07-42b2-9c72-4eb50d32a601
+    portId: 55
+  - guid: 1d9bd58f-468d-410d-9597-7f03d1c48d25
+    targetGuid: 1ba85fcd-74cf-4d6f-8b5b-29bc395b8999
+    portId: 56
+  - guid: 3a4d2632-8588-4e0d-a0d5-ae154d1d1b38
+    targetGuid: 1d9bd58f-468d-410d-9597-7f03d1c48d25
+    portId: 57
+  - guid: 4c0231c8-2d74-408e-88f7-588f238e3ef3
+    targetGuid: c7f11649-b20e-4f8f-944a-9170c9e4b0d3
+    portId: 58
+  - guid: d1406266-6e4b-45fc-8e61-7e5eecfc960b
+    targetGuid: 4c0231c8-2d74-408e-88f7-588f238e3ef3
+    portId: 59
+  - guid: 52267199-af90-4ddb-bed1-03836b568670
+    targetGuid: 8510235b-bd45-47cf-bd33-a7bd12e6cc66
+    portId: 60
+  - guid: 3a2dca46-d06e-44db-8aad-0e652f39173f
+    targetGuid: 52267199-af90-4ddb-bed1-03836b568670
+    portId: 61
+  - guid: 908286e2-9dee-4b1d-92b0-880311069ebe
+    targetGuid: 3a2dca46-d06e-44db-8aad-0e652f39173f
+    portId: 62
+  - guid: 626f6525-6d22-4987-8235-c58bf5e9dd42
+    targetGuid: 908286e2-9dee-4b1d-92b0-880311069ebe
+    portId: 63
+  - guid: c2359d79-1ed9-4bec-b66c-c842d79baf9a
+    targetGuid: 626f6525-6d22-4987-8235-c58bf5e9dd42
+    portId: 64
+  - guid: 2182217d-a5df-41a3-b6a4-38790c0e9f2d
+    targetGuid: bc003695-7a45-488e-b639-36d21040d6fb
+    portId: 65
+  - guid: ef46b030-a686-4acd-a7e3-f48da6693b39
+    targetGuid: 296c5ac6-ed86-438d-ba03-15fdedcd463b
+    portId: 66
+  - guid: 8cd8d75b-aaee-4055-91ce-98dbcaee9dd0
+    targetGuid: ef46b030-a686-4acd-a7e3-f48da6693b39
+    portId: 67
+  - guid: f7ad7b81-e5c7-4f28-9a43-b0fbd937b010
+    targetGuid: 25a76058-11c6-4808-a7aa-b36155bfd849
+    portId: 68
+  - guid: ed386939-0629-4b0e-940f-09a0a844c488
+    targetGuid: f7ad7b81-e5c7-4f28-9a43-b0fbd937b010
+    portId: 69
+  - guid: 53c6661b-1c0b-44dc-bc45-3e71ae661bc6
+    targetGuid: 7b2d4eb9-f126-4cf0-840e-a39b93c1ab76
+    portId: 70
+  - guid: 438c4c25-4384-425e-821d-3be7f4ab4109
+    targetGuid: 44197859-73d4-49b6-a192-8024908df3f6
+    portId: 71
+  - guid: bceebb04-d2f6-46cf-8c0f-533932a3c1b5
+    targetGuid: e46c75b2-ab50-42dd-8b7d-5e3ac5fbf2aa
+    portId: 72
+  - guid: e36b0868-8344-4813-89b4-6cddfaa4352c
+    targetGuid: bceebb04-d2f6-46cf-8c0f-533932a3c1b5
+    portId: 73
+  - guid: 285ae67b-d8bc-4f82-b3c4-f7fd17c876c0
+    targetGuid: e36b0868-8344-4813-89b4-6cddfaa4352c
+    portId: 74
+  - guid: d3fa1b1c-f3d4-4f85-b035-fea3898e7dff
+    targetGuid: 4fc00736-3209-4feb-9bb2-31d6f6a1e27d
+    portId: 75
+  - guid: c7ccb38b-5f19-4800-89da-be04e195922b
+    targetGuid: d1b39e1c-166c-4661-9bc8-396cdd0013c0
+    portId: 76
+  - guid: 0a834c20-6c3f-495f-9fdd-16be5dcceabe
+    targetGuid: c7ccb38b-5f19-4800-89da-be04e195922b
+    portId: 77
+  - guid: 3eed6d3a-27fa-40a5-951e-b4608e076746
+    targetGuid: 0a834c20-6c3f-495f-9fdd-16be5dcceabe
+    portId: 78
+  - guid: d1b39e1c-166c-4661-9bc8-396cdd0013c0
+    targetGuid: ee646447-8d44-46d2-9b98-a62eb8ce6b6f
+    portId: 79
+  - guid: ee646447-8d44-46d2-9b98-a62eb8ce6b6f
+    targetGuid: d3fa1b1c-f3d4-4f85-b035-fea3898e7dff
+    portId: 80
+  - guid: 4fc00736-3209-4feb-9bb2-31d6f6a1e27d
+    targetGuid: 285ae67b-d8bc-4f82-b3c4-f7fd17c876c0
+    portId: 81
+  - guid: e46c75b2-ab50-42dd-8b7d-5e3ac5fbf2aa
+    targetGuid: 438c4c25-4384-425e-821d-3be7f4ab4109
+    portId: 82
+  - guid: 44197859-73d4-49b6-a192-8024908df3f6
+    targetGuid: 53c6661b-1c0b-44dc-bc45-3e71ae661bc6
+    portId: 83
+  - guid: 7b2d4eb9-f126-4cf0-840e-a39b93c1ab76
+    targetGuid: ed386939-0629-4b0e-940f-09a0a844c488
+    portId: 84
+  - guid: 25a76058-11c6-4808-a7aa-b36155bfd849
+    targetGuid: 03afa694-99c4-4be9-89cf-5060ae77a232
+    portId: 85
+  - guid: 03afa694-99c4-4be9-89cf-5060ae77a232
+    targetGuid: 63ad36ce-b716-4f87-b12b-b102229b2183
+    portId: 86
+  - guid: 63ad36ce-b716-4f87-b12b-b102229b2183
+    targetGuid: 8cd8d75b-aaee-4055-91ce-98dbcaee9dd0
+    portId: 87
+  - guid: 296c5ac6-ed86-438d-ba03-15fdedcd463b
+    targetGuid: 2182217d-a5df-41a3-b6a4-38790c0e9f2d
+    portId: 88
+  - guid: d653cb33-90a3-4492-96a5-94d7892143d4
+    targetGuid: 3a39d571-45da-4cdc-be48-550ba5c71c76
+    portId: 89
+  - guid: 3a39d571-45da-4cdc-be48-550ba5c71c76
+    targetGuid: c2359d79-1ed9-4bec-b66c-c842d79baf9a
+    portId: 90
+  - guid: 8510235b-bd45-47cf-bd33-a7bd12e6cc66
+    targetGuid: b4f5e499-3d89-408c-a962-da48dd15fa27
+    portId: 91
+  - guid: b4f5e499-3d89-408c-a962-da48dd15fa27
+    targetGuid: d1406266-6e4b-45fc-8e61-7e5eecfc960b
+    portId: 92
+  - guid: c7f11649-b20e-4f8f-944a-9170c9e4b0d3
+    targetGuid: 3a4d2632-8588-4e0d-a0d5-ae154d1d1b38
+    portId: 93
+  - guid: 1ba85fcd-74cf-4d6f-8b5b-29bc395b8999
+    targetGuid: 5f60deaa-4174-4a6b-a12f-97b2b3f2c4c2
+    portId: 94
+  - guid: 5f60deaa-4174-4a6b-a12f-97b2b3f2c4c2
+    targetGuid: 0d1c9998-0d41-44c3-823a-bb400f7bb26c
+    portId: 95
+  - guid: d1ed362b-9346-4302-bc85-9513f3ac8cbe
+    targetGuid: 433248dd-228f-4eeb-a58d-23d0a3e17ea3
+    portId: 96
+  - guid: 1b3d9ab9-88a9-4171-ab0f-240a30ba67e0
+    targetGuid: dae79616-1d8f-49a2-a31e-bc6f3ab8b305
+    portId: 97
+  - guid: dae79616-1d8f-49a2-a31e-bc6f3ab8b305
+    targetGuid: 4423d528-a119-427b-bde0-e807345aac52
+    portId: 98
+  - guid: 4423d528-a119-427b-bde0-e807345aac52
+    targetGuid: 483024ef-ee78-412b-baac-474d51607a60
+    portId: 99
+  - guid: 3c045561-8da7-48d3-9177-cd75d9600ee2
+    targetGuid: 21043558-c13b-44f5-a3df-5212b7bc9980
+    portId: 100
+  - guid: 89a54c36-e43c-4f4f-8c48-f9c3bdf9ab16
+    targetGuid: f8aad13c-e580-4a45-8d3a-656ac09e4612
+    portId: 101
+  - guid: ff33867e-c096-493c-9a1b-e126efebcfe7
+    targetGuid: 94425fef-81c7-47f3-a96b-82202d22d4ed
+    portId: 102
+  - guid: d303501d-2228-4e89-acb3-487f5687cf1a
+    targetGuid: 0f9e8726-58f5-4fb2-9682-9ef55cddd8ff
+    portId: 103
+  - guid: 15a556e4-9d2f-4134-b3fc-c26406080550
+    targetGuid: 1264d673-8ba2-49dc-8984-8b72e085b83d
+    portId: 104
+  - guid: bcd1e233-8230-4f1e-8794-16307b12ed57
+    targetGuid: 15a556e4-9d2f-4134-b3fc-c26406080550
+    portId: 105
+  - guid: 4976b0b0-a854-4f74-baa0-53c88a0b0737
+    targetGuid: 8514b0b8-e65a-4918-aa9c-479e825d787a
+    portId: 106
+  - guid: 8514b0b8-e65a-4918-aa9c-479e825d787a
+    targetGuid: 18e966a0-2256-4904-894a-fe032c017e46
+    portId: 107
+  - guid: e2c1900b-f6a6-4978-91e7-1f02901c4b74
+    targetGuid: 65ccd0c4-6912-45ce-8731-1e3aa9a3fd57
+    portId: 108
+  - guid: 65ccd0c4-6912-45ce-8731-1e3aa9a3fd57
+    targetGuid: e8143713-7791-4f86-b92d-f75335350c4d
+    portId: 109
+  - guid: e8143713-7791-4f86-b92d-f75335350c4d
+    targetGuid: 90a313d0-69f8-4d14-b3f2-0d185c8100fc
+    portId: 110
+  - guid: 90a313d0-69f8-4d14-b3f2-0d185c8100fc
+    targetGuid: e08847c4-db77-48e4-b103-47b28d1b6735
+    portId: 111
+  - guid: e08847c4-db77-48e4-b103-47b28d1b6735
+    targetGuid: 9f4d4bb6-586b-4223-9fbf-ff8393d61b92
+    portId: 112
+  - guid: 9f4d4bb6-586b-4223-9fbf-ff8393d61b92
+    targetGuid: 7bc57db1-e271-4200-803d-d0011d33e254
+    portId: 113
+  - guid: 9f4d4bb6-586b-4223-9fbf-ff8393d61b92
+    targetGuid: 7bc57db1-e271-4200-803d-d0011d33e254
+    portId: 114
+  - guid: f2b51242-2709-44a6-8382-34e949129827
+    targetGuid: aff31d8e-99d2-4451-b710-b4a1126fc89d
+    portId: 115
+  - guid: aff31d8e-99d2-4451-b710-b4a1126fc89d
+    targetGuid: b71f78f0-de70-4a8d-b72c-a8f9b24f1e55
+    portId: 116
+  - guid: b71f78f0-de70-4a8d-b72c-a8f9b24f1e55
+    targetGuid: 3e23d27b-3cda-48da-a907-f652668c44a0
+    portId: 117
+  - guid: 3e23d27b-3cda-48da-a907-f652668c44a0
+    targetGuid: a8a219b7-d95a-4541-9282-047e35ff9adb
+    portId: 118
+  - guid: a8a219b7-d95a-4541-9282-047e35ff9adb
+    targetGuid: 93c66f46-8aa0-4807-a31a-e8ce1931c6ce
+    portId: 119
+  - guid: d9388c97-8ab8-4d8d-a24f-078d0b27a661
+    targetGuid: d1ed362b-9346-4302-bc85-9513f3ac8cbe
+    portId: 120
+  - guid: 6d458c65-7610-4db5-9964-30d3918ecb9a
+    targetGuid: d9388c97-8ab8-4d8d-a24f-078d0b27a661
+    portId: 121
+  - guid: 433248dd-228f-4eeb-a58d-23d0a3e17ea3
+    targetGuid: 7f4118d7-65e3-4f53-a497-248c5d2f2d32
+    portId: 122
+  - guid: 7f4118d7-65e3-4f53-a497-248c5d2f2d32
+    targetGuid: aa9ec72f-889a-42c7-9918-a27b34854f3a
+    portId: 123
+  - guid: aa9ec72f-889a-42c7-9918-a27b34854f3a
+    targetGuid: cc5dbe9f-bc52-4398-b71d-89a0adb29680
+    portId: 124
+  - guid: cc5dbe9f-bc52-4398-b71d-89a0adb29680
+    targetGuid: 0d2d399b-6b95-4103-b73f-64383ecf72fb
+    portId: 125
+  - guid: 0d2d399b-6b95-4103-b73f-64383ecf72fb
+    targetGuid: 82feda25-5dd7-4d7c-8fe3-3572d61ec427
+    portId: 126
+  - guid: 82feda25-5dd7-4d7c-8fe3-3572d61ec427
+    targetGuid: 354826ab-b27d-4aa7-b015-9bccbeefa65e
+    portId: 127
+  - guid: 354826ab-b27d-4aa7-b015-9bccbeefa65e
+    targetGuid: 30149c9a-0d28-4406-893d-3723219d870f
+    portId: 128
+  - guid: 30149c9a-0d28-4406-893d-3723219d870f
+    targetGuid: e52816cd-dbfd-4143-b9b7-af608deeec12
+    portId: 129
+  - guid: e52816cd-dbfd-4143-b9b7-af608deeec12
+    targetGuid: 767abcf6-dbbc-4b30-81be-23c5bec6790f
+    portId: 130
+  - guid: 767abcf6-dbbc-4b30-81be-23c5bec6790f
+    targetGuid: aea5fe0e-ee9c-4846-af88-2e7a69e925db
+    portId: 131
+  - guid: aea5fe0e-ee9c-4846-af88-2e7a69e925db
+    targetGuid: 9d3d20fe-234c-46dc-a0d7-3e8cb7e179e2
+    portId: 132
+  - guid: 9d3d20fe-234c-46dc-a0d7-3e8cb7e179e2
+    targetGuid: bc8b43e7-f4ae-4c85-803b-3d12b1512cc8
+    portId: 133
+  - guid: bc8b43e7-f4ae-4c85-803b-3d12b1512cc8
+    targetGuid: ec2c76f0-94ae-47c2-832f-90c0cb86c293
+    portId: 134
+  - guid: ec2c76f0-94ae-47c2-832f-90c0cb86c293
+    targetGuid: 57ac3fdf-a7d5-4c73-b59e-164e53284e71
+    portId: 135
+  - guid: 57ac3fdf-a7d5-4c73-b59e-164e53284e71
+    targetGuid: b316a181-0f0d-4a23-b7ce-90ecbc408d38
+    portId: 136
+  - guid: b316a181-0f0d-4a23-b7ce-90ecbc408d38
+    targetGuid: f643f700-41a5-44ce-8e7b-42639cb9f1fc
+    portId: 137
+  - guid: f643f700-41a5-44ce-8e7b-42639cb9f1fc
+    targetGuid: 8dab1423-a347-4ef8-ac2e-c1927bbfb040
+    portId: 138
+  - guid: 8dab1423-a347-4ef8-ac2e-c1927bbfb040
+    targetGuid: 17f07336-165f-478d-80f8-d198dbb94d82
+    portId: 139
+  - guid: 17f07336-165f-478d-80f8-d198dbb94d82
+    targetGuid: c869b363-1ef9-4598-a750-4cc17ffa44e5
+    portId: 140
+  - guid: c869b363-1ef9-4598-a750-4cc17ffa44e5
+    targetGuid: bbd71952-83eb-40c4-8edd-f54196c2279d
+    portId: 141
+  - guid: bbd71952-83eb-40c4-8edd-f54196c2279d
+    targetGuid: b5b3ff4b-e11a-4c7f-a56e-749388e5db2e
+    portId: 142
+  - guid: 45c7b38e-d750-409b-8043-2b74d73bf119
+    targetGuid: f2b51242-2709-44a6-8382-34e949129827
+    portId: 143
+  - guid: 7bc57db1-e271-4200-803d-d0011d33e254
+    targetGuid: 45c7b38e-d750-409b-8043-2b74d73bf119
+    portId: 144
+  - guid: 0243ee1a-4de2-4b4a-be89-683ad7b95b7e
+    targetGuid: 588da387-a558-4029-8898-ba0f07b07a4c
+    portId: 145
+  - guid: 588da387-a558-4029-8898-ba0f07b07a4c
+    targetGuid: d422ec6e-15d0-45ef-a487-3d059b152863
+    portId: 146
+  - guid: d422ec6e-15d0-45ef-a487-3d059b152863
+    targetGuid: 3e81ffe9-c15c-4509-a0e8-97ef1947f810
+    portId: 147
+  - guid: 636eacb4-89e2-44f9-9aed-82946e657b82
+    targetGuid: fe028c7d-b4bf-49cd-80e7-7f1aba02e2ec
+    portId: 148
+  - guid: fe028c7d-b4bf-49cd-80e7-7f1aba02e2ec
+    targetGuid: 008e3919-fe77-4c8d-9ae5-89b971713077
+    portId: 149
+  - guid: 008e3919-fe77-4c8d-9ae5-89b971713077
+    targetGuid: a68d59f6-f651-4ec6-a8b7-969bd4369911
+    portId: 150
+  - guid: 6b536f75-a065-40b5-8bbd-c9f61ba3e39f
+    targetGuid: 802d801e-da9b-4284-9929-1ac1ddcac59d
+    portId: 151
+  - guid: 802d801e-da9b-4284-9929-1ac1ddcac59d
+    targetGuid: 41317b4b-318b-4b66-9015-ae859cbe7595
+    portId: 152
+  - guid: dc4e3fb8-7a07-42b2-9c72-4eb50d32a601
+    targetGuid: 0243ee1a-4de2-4b4a-be89-683ad7b95b7e
+    portId: 153
+  - guid: 3e81ffe9-c15c-4509-a0e8-97ef1947f810
+    targetGuid: bd2f843d-6517-442b-b91f-09595b6c3725
+    portId: 154
+  - guid: 347eca77-0603-4d40-b61c-f900a9e3c484
+    targetGuid: 79d21fc7-c2f0-4620-8249-30cab0e9350e
+    portId: 155
+  - guid: de75faaa-7f16-4cca-9aac-b01cc72158a2
+    targetGuid: d00dad25-58de-462f-9316-fce14d40645f
+    portId: 156
+  - guid: d00dad25-58de-462f-9316-fce14d40645f
+    targetGuid: 390113b5-adda-4d57-bdce-53283f6821c7
+    portId: 157
+  - guid: 390113b5-adda-4d57-bdce-53283f6821c7
+    targetGuid: a8312483-8b39-457d-b207-b3c191503986
+    portId: 158
+  - guid: a8312483-8b39-457d-b207-b3c191503986
+    targetGuid: 529bada3-4832-4341-ba90-5af9b2c873a1
+    portId: 159
+  - guid: 529bada3-4832-4341-ba90-5af9b2c873a1
+    targetGuid: d17538db-d1a2-4d55-ba31-4573478dac31
+    portId: 160
+  - guid: d17538db-d1a2-4d55-ba31-4573478dac31
+    targetGuid: 91567b80-65cc-4c80-b815-c29048691d79
+    portId: 161
+  - guid: 91567b80-65cc-4c80-b815-c29048691d79
+    targetGuid: 1b1984f3-5abf-412f-a1af-72ce8819822e
+    portId: 162
+  - guid: 1b1984f3-5abf-412f-a1af-72ce8819822e
+    targetGuid: 898f9a7e-b68b-42ca-92f2-639065d0bdba
+    portId: 163
+  - guid: 898f9a7e-b68b-42ca-92f2-639065d0bdba
+    targetGuid: cd11b807-1ada-4cdb-bc6c-7d5f66ed32bf
+    portId: 164
+  - guid: cd11b807-1ada-4cdb-bc6c-7d5f66ed32bf
+    targetGuid: 7c7084a3-2514-4f65-bae0-949ff8287bc1
+    portId: 165
+  - guid: 7c7084a3-2514-4f65-bae0-949ff8287bc1
+    targetGuid: 38ed1f9b-e7a8-4148-977a-d2277db0bbb5
+    portId: 166
+  - guid: 38ed1f9b-e7a8-4148-977a-d2277db0bbb5
+    targetGuid: a63ba208-1a78-417b-8adc-a4f03062035d
+    portId: 167
+  - guid: a63ba208-1a78-417b-8adc-a4f03062035d
+    targetGuid: f84013ba-99bf-46fc-9392-16deb5ba8bdd
+    portId: 168
+  - guid: f84013ba-99bf-46fc-9392-16deb5ba8bdd
+    targetGuid: 3d06f99e-0e1f-4b01-b1ea-0ca783ed3166
+    portId: 169
+  - guid: 3d06f99e-0e1f-4b01-b1ea-0ca783ed3166
+    targetGuid: ad08f702-4540-48aa-aa2c-ea1738657a1f
+    portId: 170
+  - guid: a68d59f6-f651-4ec6-a8b7-969bd4369911
+    targetGuid: 4686722c-71b7-406a-84a4-708c6f3d6c1c
+    portId: 171
+  - guid: 4686722c-71b7-406a-84a4-708c6f3d6c1c
+    targetGuid: 6b536f75-a065-40b5-8bbd-c9f61ba3e39f
+    portId: 172
+  - guid: 41317b4b-318b-4b66-9015-ae859cbe7595
+    targetGuid: 0028b03c-962c-470e-84a9-fa80c70b4253
+    portId: 173
+  - guid: 030856d0-c9c2-4386-93e2-2320c09f243a
+    targetGuid: 05600685-8e81-4193-8216-265ca1fbf115
+    portId: 174
+  - guid: 204c2cf7-0f1a-47f3-8a5b-6c7b9942f632
+    targetGuid: 99f94506-925f-427e-8284-c1f3abb85077
+    portId: 175
+  - guid: 6872ae1b-06a8-474b-9890-3a123baf5f83
+    targetGuid: b3a8bcfe-ea46-46eb-a437-257ba0d02d5c
+    portId: 176
+  - guid: 04bfef4d-b215-4fac-b07f-654d49c423e1
+    targetGuid: f58ad83a-1257-437b-b726-1971b479dbf6
+    portId: 177
+  - guid: 5a0198f2-be06-4b58-a1d2-2d8ad9d7151a
+    targetGuid: 286b45ce-7c06-4adb-a4cb-b3ef61808bd8
+    portId: 178
+  - guid: 286b45ce-7c06-4adb-a4cb-b3ef61808bd8
+    targetGuid: 968af144-703c-4e14-bd7f-7b634fc00bef
+    portId: 179
+  - guid: 2d8acdda-8708-4594-a7f3-1ce8fc930e31
+    targetGuid: 67bc57f5-0be9-4144-bfd7-2ebcda011248
+    portId: 180
+  - guid: 09adc1b7-ab64-41cd-860d-ce92e2768016
+    targetGuid: fbee46cd-72b8-4786-b88c-d21ede272868
+    portId: 181
+  - guid: 7b8595f6-2834-4b56-89b4-2c48b9fe5726
+    targetGuid: 7aed6892-2c51-45fc-bd71-e8bb1876311d
+    portId: 182
+  - guid: 283b82a9-c16b-46c4-9a1d-5e00281404c4
+    targetGuid: ff375522-50ac-43f7-9d4d-c8bf386d271b
+    portId: 183
+  - guid: 3332635a-b56a-44b2-a203-4a915b4ee7a1
+    targetGuid: 423984f4-2a3e-4b94-9ff8-409311cd7922
+    portId: 184
+  - guid: 24a90d73-2e8e-4d40-b0bc-376ff45efb9d
+    targetGuid: 51b5e44f-547c-4db9-9230-fee11fd2a953
+    portId: 185
+  - guid: 51b5e44f-547c-4db9-9230-fee11fd2a953
+    targetGuid: 1dd8e031-4f40-402e-8e84-dffe062f86f0
+    portId: 186
+  - guid: 1ca3e3e2-929c-4de3-bce1-fc0f97975e1a
+    targetGuid: 473305e4-f45d-42be-8de3-ea0795c4e462
+    portId: 187
+  - guid: a2613d1f-f256-499d-a8d2-7cd5b0ed3068
+    targetGuid: 73c6c4ef-2cf4-4168-9885-efdc2983d3b4
+    portId: 188
+  - guid: 73c6c4ef-2cf4-4168-9885-efdc2983d3b4
+    targetGuid: be9dd2ff-679d-463f-be52-10997609a40e
+    portId: 189
+  - guid: 363d0ea6-77df-4191-87f9-dae9bcaedd5d
+    targetGuid: 5ab37fc6-fcb1-497c-b99c-2dbecf8c2ed1
+    portId: 190
+  - guid: 5ab37fc6-fcb1-497c-b99c-2dbecf8c2ed1
+    targetGuid: 0745857b-64db-4495-ac2d-f2485031c071
+    portId: 191
+  - guid: aceba876-662a-4c34-aff9-4816253048ee
+    targetGuid: 036fd462-4a3e-402b-ae64-d10c9bd1cbf2
+    portId: 192
+  - guid: 45396d11-19bb-4402-82a2-e0c2e95654e8
+    targetGuid: 86ecbfc5-98c8-4652-9ce4-4b1638ffb2f3
+    portId: 193
+  - guid: bd2f843d-6517-442b-b91f-09595b6c3725
+    targetGuid: 1b29206d-ca29-4175-b3a0-64952f4185cd
+    portId: 194
+  - guid: 1b29206d-ca29-4175-b3a0-64952f4185cd
+    targetGuid: 298bd9e8-7b81-4fc9-9214-7a7415b58022
+    portId: 195
+  - guid: 298bd9e8-7b81-4fc9-9214-7a7415b58022
+    targetGuid: 347eca77-0603-4d40-b61c-f900a9e3c484
+    portId: 196
+  - guid: 79d21fc7-c2f0-4620-8249-30cab0e9350e
+    targetGuid: de75faaa-7f16-4cca-9aac-b01cc72158a2
+    portId: 197
+  - guid: ad08f702-4540-48aa-aa2c-ea1738657a1f
+    targetGuid: 636eacb4-89e2-44f9-9aed-82946e657b82
+    portId: 198
+  - guid: 0028b03c-962c-470e-84a9-fa80c70b4253
+    targetGuid: 030856d0-c9c2-4386-93e2-2320c09f243a
+    portId: 199
+  - guid: 05600685-8e81-4193-8216-265ca1fbf115
+    targetGuid: 204c2cf7-0f1a-47f3-8a5b-6c7b9942f632
+    portId: 200
+  - guid: 99f94506-925f-427e-8284-c1f3abb85077
+    targetGuid: 828e91e3-983a-4947-ade6-aefab728d610
+    portId: 201
+  - guid: 828e91e3-983a-4947-ade6-aefab728d610
+    targetGuid: 6872ae1b-06a8-474b-9890-3a123baf5f83
+    portId: 202
+  - guid: b3a8bcfe-ea46-46eb-a437-257ba0d02d5c
+    targetGuid: 29205dbe-543b-48cd-a5ed-74f33e02744a
+    portId: 203
+  - guid: 29205dbe-543b-48cd-a5ed-74f33e02744a
+    targetGuid: 26fa422f-39c6-4da9-af43-a3186936df4d
+    portId: 204
+  - guid: 26fa422f-39c6-4da9-af43-a3186936df4d
+    targetGuid: d810d116-ef4d-4d6d-a1f4-276571d2a10c
+    portId: 205
+  - guid: d810d116-ef4d-4d6d-a1f4-276571d2a10c
+    targetGuid: c5398c31-050a-4730-abd3-ed6e66276dc0
+    portId: 206
+  - guid: c5398c31-050a-4730-abd3-ed6e66276dc0
+    targetGuid: ca6c5a40-65ca-4937-9b16-e5014bb3761b
+    portId: 207
+  - guid: ca6c5a40-65ca-4937-9b16-e5014bb3761b
+    targetGuid: a079c3b7-287e-4d4c-b990-9c70d77b4ca2
+    portId: 208
+  - guid: a079c3b7-287e-4d4c-b990-9c70d77b4ca2
+    targetGuid: 43c3d22c-b149-47eb-a963-582b7d43a03e
+    portId: 209
+  - guid: 43c3d22c-b149-47eb-a963-582b7d43a03e
+    targetGuid: 51d28235-687e-43dc-91f2-056977cb22bc
+    portId: 210
+  - guid: 51d28235-687e-43dc-91f2-056977cb22bc
+    targetGuid: 17622d6b-5a5d-4b5f-ad70-61769f2bebb0
+    portId: 211
+  - guid: 17622d6b-5a5d-4b5f-ad70-61769f2bebb0
+    targetGuid: 04bfef4d-b215-4fac-b07f-654d49c423e1
+    portId: 212
+  - guid: f58ad83a-1257-437b-b726-1971b479dbf6
+    targetGuid: 5a0198f2-be06-4b58-a1d2-2d8ad9d7151a
+    portId: 213
+  - guid: 968af144-703c-4e14-bd7f-7b634fc00bef
+    targetGuid: 2d8acdda-8708-4594-a7f3-1ce8fc930e31
+    portId: 214
+  - guid: 67bc57f5-0be9-4144-bfd7-2ebcda011248
+    targetGuid: fe2be6c4-7ee1-4b74-9e51-0df30b0649d6
+    portId: 215
+  - guid: fe2be6c4-7ee1-4b74-9e51-0df30b0649d6
+    targetGuid: 1c9d6d50-c02e-42e1-a480-0b4ddafc4b6c
+    portId: 216
+  - guid: 1c9d6d50-c02e-42e1-a480-0b4ddafc4b6c
+    targetGuid: c618df0d-3776-482d-84a0-f05fc0883615
+    portId: 217
+  - guid: c618df0d-3776-482d-84a0-f05fc0883615
+    targetGuid: 17f5895b-e73a-4803-923c-df876a14203c
+    portId: 218
+  - guid: 17f5895b-e73a-4803-923c-df876a14203c
+    targetGuid: d2ae14ec-2139-4b9f-81a8-49fb72a3a68a
+    portId: 219
+  - guid: d2ae14ec-2139-4b9f-81a8-49fb72a3a68a
+    targetGuid: 52c4b4f7-d598-4117-9644-1a4d75da4c7c
+    portId: 220
+  - guid: 52c4b4f7-d598-4117-9644-1a4d75da4c7c
+    targetGuid: a0a9d021-07d8-4c41-bd17-4898100154ed
+    portId: 221
+  - guid: a0a9d021-07d8-4c41-bd17-4898100154ed
+    targetGuid: ebf5b0a0-35fa-47d5-b958-89c8d6905cd1
+    portId: 222
+  - guid: ebf5b0a0-35fa-47d5-b958-89c8d6905cd1
+    targetGuid: 9cf22d8f-8ffd-4f0a-ad4c-0edb04788822
+    portId: 223
+  - guid: 9cf22d8f-8ffd-4f0a-ad4c-0edb04788822
+    targetGuid: 5784f524-495a-4b02-92da-5946d4d632ec
+    portId: 224
+  - guid: 5784f524-495a-4b02-92da-5946d4d632ec
+    targetGuid: be1f2b44-4ddc-46bb-99c2-70d097c062d2
+    portId: 225
+  - guid: be1f2b44-4ddc-46bb-99c2-70d097c062d2
+    targetGuid: 09adc1b7-ab64-41cd-860d-ce92e2768016
+    portId: 226
+  - guid: fbee46cd-72b8-4786-b88c-d21ede272868
+    targetGuid: d80cc24c-e815-4a4f-94e8-bd565b789324
+    portId: 227
+  - guid: d80cc24c-e815-4a4f-94e8-bd565b789324
+    targetGuid: a09a671a-fe59-44ed-a6da-26f81d782eea
+    portId: 228
+  - guid: a09a671a-fe59-44ed-a6da-26f81d782eea
+    targetGuid: 8ee288d7-de51-4f31-b2e4-158b3a89eead
+    portId: 229
+  - guid: 8ee288d7-de51-4f31-b2e4-158b3a89eead
+    targetGuid: 7b8595f6-2834-4b56-89b4-2c48b9fe5726
+    portId: 230
+  - guid: 7aed6892-2c51-45fc-bd71-e8bb1876311d
+    targetGuid: 283b82a9-c16b-46c4-9a1d-5e00281404c4
+    portId: 231
+  - guid: ff375522-50ac-43f7-9d4d-c8bf386d271b
+    targetGuid: 6bb0350a-a226-48e1-82c6-a7e3b0b00191
+    portId: 232
+  - guid: 6bb0350a-a226-48e1-82c6-a7e3b0b00191
+    targetGuid: f7e823f1-e0fd-43ff-a551-391a9509e002
+    portId: 233
+  - guid: f7e823f1-e0fd-43ff-a551-391a9509e002
+    targetGuid: 3332635a-b56a-44b2-a203-4a915b4ee7a1
+    portId: 234
+  - guid: 423984f4-2a3e-4b94-9ff8-409311cd7922
+    targetGuid: 24a90d73-2e8e-4d40-b0bc-376ff45efb9d
+    portId: 235
+  - guid: 1dd8e031-4f40-402e-8e84-dffe062f86f0
+    targetGuid: 2522c302-02af-43d7-a6f2-54e7404bd515
+    portId: 236
+  - guid: 1dd8e031-4f40-402e-8e84-dffe062f86f0
+    targetGuid: 2522c302-02af-43d7-a6f2-54e7404bd515
+    portId: 237
+  - guid: 2522c302-02af-43d7-a6f2-54e7404bd515
+    targetGuid: a75a2832-b2c9-49f0-b350-e7ce1686a4fb
+    portId: 238
+  - guid: a75a2832-b2c9-49f0-b350-e7ce1686a4fb
+    targetGuid: 1ca3e3e2-929c-4de3-bce1-fc0f97975e1a
+    portId: 239
+  - guid: 473305e4-f45d-42be-8de3-ea0795c4e462
+    targetGuid: a2613d1f-f256-499d-a8d2-7cd5b0ed3068
+    portId: 240
+  - guid: be9dd2ff-679d-463f-be52-10997609a40e
+    targetGuid: 363d0ea6-77df-4191-87f9-dae9bcaedd5d
+    portId: 241
+  - guid: be9dd2ff-679d-463f-be52-10997609a40e
+    targetGuid: 363d0ea6-77df-4191-87f9-dae9bcaedd5d
+    portId: 242
+  - guid: 0745857b-64db-4495-ac2d-f2485031c071
+    targetGuid: aceba876-662a-4c34-aff9-4816253048ee
+    portId: 243
+  - guid: 036fd462-4a3e-402b-ae64-d10c9bd1cbf2
+    targetGuid: 45396d11-19bb-4402-82a2-e0c2e95654e8
+    portId: 244
+  - guid: 86ecbfc5-98c8-4652-9ce4-4b1638ffb2f3
+    targetGuid: 45a22d56-4682-4bff-9012-dcaf79deaf5b
+    portId: 245
+  - guid: 45a22d56-4682-4bff-9012-dcaf79deaf5b
+    targetGuid: 80812312-0bfc-4106-80b1-c8c3a33e6a14
+    portId: 246
+  - guid: b21b9e66-c2b5-450b-8dd8-ed078662635a
+    targetGuid: 49c57d2d-a738-467b-b298-f6ea7f7896a3
+    portId: 247
+  - guid: c42a4e3f-c1bd-4a78-bfc8-797fb5e586e5
+    targetGuid: 542076fa-f47f-4c48-b5c2-4bbc5992c269
+    portId: 248
+  - guid: 3c069be9-02e5-4e88-acfd-415327f8c75c
+    targetGuid: 80ebf644-839e-4a79-ab32-4eed1ecc0693
+    portId: 249
+  - guid: 80ebf644-839e-4a79-ab32-4eed1ecc0693
+    targetGuid: 4520a2a6-1f78-4bbc-b636-b18aecd60e8e
+    portId: 250
+  - guid: 0d4fe54e-eb7c-4db7-a6c5-f2edb9778c1f
+    targetGuid: c42a4e3f-c1bd-4a78-bfc8-797fb5e586e5
+    portId: 251
+  - guid: 542076fa-f47f-4c48-b5c2-4bbc5992c269
+    targetGuid: b21b9e66-c2b5-450b-8dd8-ed078662635a
+    portId: 252
+  - guid: 49c57d2d-a738-467b-b298-f6ea7f7896a3
+    targetGuid: 2b4491e3-1ffd-4dba-9ac8-3c0e52f79063
+    portId: 253
+  - guid: c0218653-6586-4ad3-9c82-7f2f1cecd959
+    targetGuid: db73caf1-ff9e-464c-8db7-9a8de0f1cd94
+    portId: 254
+  - guid: 78b9906e-36a5-4849-911a-8a615683dc6c
+    targetGuid: c0218653-6586-4ad3-9c82-7f2f1cecd959
+    portId: 255
+  - guid: d81c7f8c-d5ca-4917-b211-d906926b02cc
+    targetGuid: 78b9906e-36a5-4849-911a-8a615683dc6c
+    portId: 256
+  - guid: c1ae96ff-91d3-4013-826d-7e988550491d
+    targetGuid: d81c7f8c-d5ca-4917-b211-d906926b02cc
+    portId: 257
+  - guid: 0f06fc3f-3cde-468f-a0da-d5a1498a0f88
+    targetGuid: c1ae96ff-91d3-4013-826d-7e988550491d
+    portId: 258
+  - guid: 05255827-e775-480a-b755-f45dde45283e
+    targetGuid: 0f06fc3f-3cde-468f-a0da-d5a1498a0f88
+    portId: 259
+  - guid: 50887476-4713-4ff2-bae2-e8f7be131d43
+    targetGuid: 05255827-e775-480a-b755-f45dde45283e
+    portId: 260
+  - guid: 83daf59f-517f-416a-a512-314fa9350a70
+    targetGuid: 50887476-4713-4ff2-bae2-e8f7be131d43
+    portId: 261
+  - guid: 9e33796a-3bb6-4bdb-a3c5-ba54d2c899ab
+    targetGuid: 83daf59f-517f-416a-a512-314fa9350a70
+    portId: 262
+  - guid: 764a4b31-f858-4c46-8b43-24a446529e9a
+    targetGuid: 9e33796a-3bb6-4bdb-a3c5-ba54d2c899ab
+    portId: 263
+  - guid: eaf4eeaa-250f-4a6c-b3c8-ef7cc95922e9
+    targetGuid: 10e61579-0afa-43a5-a438-a1ff33947cd7
+    portId: 264
+  - guid: 5c7fb35a-b47a-4822-9911-66f9e457fd0d
+    targetGuid: eaf4eeaa-250f-4a6c-b3c8-ef7cc95922e9
+    portId: 265
+  - guid: f9d20a53-003d-48cb-86d8-9c55ef157d32
+    targetGuid: 5c7fb35a-b47a-4822-9911-66f9e457fd0d
+    portId: 266
+  - guid: fe8f31a2-d3fd-4e13-a8fa-2b717b415928
+    targetGuid: fbd97882-2641-4a5f-b53f-51ddeebed69f
+    portId: 267
+  - guid: 2b4491e3-1ffd-4dba-9ac8-3c0e52f79063
+    targetGuid: fe8f31a2-d3fd-4e13-a8fa-2b717b415928
+    portId: 268
+  - guid: b5ea2edb-9fc9-4b19-b5b3-fdc37703bcad
+    targetGuid: e2c1900b-f6a6-4978-91e7-1f02901c4b74
+    portId: 269
+  - guid: 57034390-09a7-407a-ae31-109ac8e6bd05
+    targetGuid: 9170f1da-a78f-4ace-a9c8-b82beed35985
+    portId: 270
+  - guid: 4520a2a6-1f78-4bbc-b636-b18aecd60e8e
+    targetGuid: 0d4fe54e-eb7c-4db7-a6c5-f2edb9778c1f
+    portId: 271
+  - guid: fbd97882-2641-4a5f-b53f-51ddeebed69f
+    targetGuid: f9d20a53-003d-48cb-86d8-9c55ef157d32
+    portId: 272
+  - guid: 10e61579-0afa-43a5-a438-a1ff33947cd7
+    targetGuid: 764a4b31-f858-4c46-8b43-24a446529e9a
+    portId: 273
+  - guid: 9170f1da-a78f-4ace-a9c8-b82beed35985
+    targetGuid: 3c069be9-02e5-4e88-acfd-415327f8c75c
+    portId: 274
+  - guid: e3f1b813-590d-491e-87b3-31c79983d4f3
+    targetGuid: 57034390-09a7-407a-ae31-109ac8e6bd05
+    portId: 275
+  - guid: 80812312-0bfc-4106-80b1-c8c3a33e6a14
+    targetGuid: e3f1b813-590d-491e-87b3-31c79983d4f3
+    portId: 276
+  nodes:
+  - guid: 6f35aa99-6541-4f4e-8308-6ab954bb73d6
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Hay un muchacho mirando por la ventana de su habitaci\xF3n..., "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -1396
+      y: -57
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: fc2b221d-13fd-4174-afa2-195713932824
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "una habitaci\xF3n de paredes de piedra, circular, que es el \xFAltimo
+      espacio habitable de una alta torre, similar a la de un castillo."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -897
+      y: -57
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 02964558-05dc-4514-a6e0-6ca3d495a188
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "O que castillo le dicen \u201Clos otros\u201D, los que viven debajo,
+      lejos, en casas m\xE1s feas y ordinarias, en lo que la gente del castillo llamar\xEDa
+      \u201Cpueblo\u201D."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -398
+      y: -57
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 4e2ddece-95f4-4ff1-804e-59d013c60af4
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "El muchacho mira por la ventana, melanc\xF3lico..."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 101
+      y: -57
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f9b63133-5c2c-4ec0-ac08-9aea89ed7ca4
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Se retira de la ventana y corre las cortinas, dejando la habitaci\xF3n
+      a oscuras y se sienta sobre una cama de dos plazas que nunca ha compartido
+      con nadie.\r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1598
+      y: -57
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: dc0daa94-8ae5-42ca-9af7-5416f0b2f729
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 'como si se le hubiera perdido una mascota y esperara divisarla
+      desde lo alto. '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 600
+      y: -57
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 58f750de-546a-41ce-b9f7-3564780d284b
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: A sabiendas de que ya la han pisado y despedazado, pero espera
+      fervientemente que la suerte le demuestre lo contrario.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1099
+      y: -57
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 87ecb37b-518e-4530-bf6d-00b85b5a7ed8
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: Entonces golpean la puerta.
+    backgroundSpr: {fileID: 21300000, guid: 0d9b9fe30f07c4a438aad6e0409805e5, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2224
+      y: 377
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: e0ac04a6fef44a949b21b0cbd79f3721, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 39312815-a7af-461e-b229-d18a4847134e
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "\xBFQui\xE9n ser\xE1? Son unos golpes t\xEDmidos, sin mucha fuerza.
+      Femeninos."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2723
+      y: 377
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 93c66f46-8aa0-4807-a31a-e8ce1931c6ce
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: 8a3825a7ab72f0744b5263d0d4d2f467, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9824
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b5b3ff4b-e11a-4c7f-a56e-749388e5db2e
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: Hmmm.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 22299
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e60106e1-a8b8-4e3d-bc3e-9f5fc076891e
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: Sabes que velo por la seguridad del Aquelarre, Aradelio.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 22798
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2fc8cb5a-3e75-4480-9abe-a726c488d6ee
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "Todo lo que hacemos aqu\xED puede ser..."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 23297
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c63e2c2d-2d60-43fd-8f74-406e4521dd04
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: Malinterpretado por el resto de la gente.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 23796
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 483024ef-ee78-412b-baac-474d51607a60
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: No seas insolente, Aradelio.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 25792
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 21043558-c13b-44f5-a3df-5212b7bc9980
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Te colgar\xEDas de la plaza principal de la verguenza."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 26790
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a5da27dd-3162-4d3b-8009-a8452c71fbe2
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Lo s\xE9."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 27289
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d315e189-347b-4e87-8bc0-fcb3d5c93e86
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: ...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 27788
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1728024e-bd8c-49c0-bc60-bd34375a2a65
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "\xBFSales con ese chico?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 28287
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e9ea0e55-0100-4e1a-8076-5bff52e1c1ad
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: Hmpf...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 28786
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 21ba2b22-76c5-41dc-94ec-e08a6c428d21
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Ya te he dicho lo que quer\xEDas, padre..."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 29285
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: efb6201a-cc99-4cfc-9c4a-05e0899d41aa
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: No es necesario que finjas que te importa.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 29784
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3fff9a83-04be-4e3d-b3dc-eedf4c2146dc
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: Pero si me importa, Aradelio.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 30283
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 58bf53a5-c145-41a8-99fa-9d2e882d9df3
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: Es posible que a veces olvides que estas hablando con tu padre...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 30782
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5983e4dc-4a6c-4611-9670-f90398b9a212
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: Pero yo nunca olvido que eres mi hijo.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 31281
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 01c241e9-74ed-48b9-b323-c622f620b45f
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: Aunque nunca estemos de acuerdo en muchas cosas.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 31780
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5758276e-9a0e-4bbe-8b28-4cbaffdc0594
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: ...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 32279
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1fbb2f5d-4b75-4635-a55a-06af22c64065
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "Entonces, \xBFsalen juntos?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 32778
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 68cb547c-a6cb-4954-b5e6-a3e9e4df241f
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Solo es diversi\xF3n. Nada serio."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 33277
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c5ab4766-180d-42ad-a8f3-5dc538ad9d93
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "Contigo nunca nada es serio, \xBFno, Aradelio?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 33776
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f8aad13c-e580-4a45-8d3a-656ac09e4612
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Adem\xE1s, \xBFqu\xE9 dir\xEDan cuando conocieran la verdadera
+      naturaleza de mis poderes?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 34774
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 79d2604e-e335-44ca-88fd-d268cf6d636f
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "Creo que ese siempre fue tu problema, hijo. No poder aceptar que
+      no estas hecho para el mundo com\xFAn y corriente\u2026 "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 35273
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c6ad9f35-24d9-401e-9609-9e49a2577a83
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "Quiz\xE1, si lo hicieras, ser\xEDas m\xE1s feliz. Quiz\xE1 no
+      necesitar\xEDas estar buscando\u2026 formas est\xFApidas de escapar de tu propia
+      realidad."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 35772
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 94425fef-81c7-47f3-a96b-82202d22d4ed
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: Ya he enterrado un hijo, Aradelio.
+    backgroundSpr: {fileID: 21300000, guid: 7bf7c4906590f5b4cbe44e1c33e58b36, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 36770
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5f999d4f-168f-4f35-8a21-5d1ab296fc6d
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: Padre...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 37768
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3df2ccef-d81a-45ca-9988-63efecf906c3
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "Debes comer. Te ves muy delgado y p\xE1lido. "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 38766
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1508fc68-4289-4594-a239-b8ed45504f9b
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "No enterrar\xE9 a otro."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 37269
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2a9ab41c-4da5-41b2-a253-75d45a8e9605
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: 'No es necesario continuar, Aradelio. '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 38267
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a673e706-02fb-4326-9d89-91a91fb1dac8
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - No metas a Epitaph en esto.
+    - De acuerdo.
+    nodePosition:
+      serializedVersion: 2
+      x: 39328
+      y: 417
+      width: 499
+      height: 369
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e50efd6f-ea53-4a9b-a517-17e2c94ea414
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "y defintivamente no ser\xE1 mi propio hijo."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 43414
+      y: 481
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d16e5d08-c640-4b68-ba20-db5277241640
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "A\xFAn no he conocido un hombre que pueda hacerlo."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 42915
+      y: 481
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1264d673-8ba2-49dc-8984-8b72e085b83d
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: No oses utilizar mi nombre para reprender mis palabras.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 42416
+      y: 481
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d2551a53-cbc4-4922-974b-e2d5c055044b
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: Un accidente que fue culpa mia.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 40919
+      y: 481
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 79725386-4514-4f85-a570-b9e581aec945
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Lo que ocurri\xF3 fue un accidente."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 40420
+      y: 481
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 0f9e8726-58f5-4fb2-9682-9ef55cddd8ff
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Siempre te ir\xE1s con la \xFAltima palabra, \xBFno padre?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 40471
+      y: 112
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 466f0ab2-ebd2-4ed3-b6eb-c10c53b03711
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: No uses a mi hermano de esa forma, Prohelius.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 39921
+      y: 481
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 260e9650-8c30-473e-9e60-3fc6ca1ffbad
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: 69de7f229f02ea545a952651cad22a64, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -1895
+      y: -57
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: c19dcae8d54d21d468e2f03267b04227, type: 3}
+  - guid: 18e966a0-2256-4904-894a-fe032c017e46
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: ???
+    dialogueText: "Est\xE1s m\xE1s tenso que de costumbre\u2026 "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 44755
+      y: 925
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 4d64b675-c140-4595-92c8-532f8987fcc7
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: ???
+    dialogueText: "\xBFPeleaste con tu padre otra vez?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 45254
+      y: 925
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: eb1e73d0-5d0a-4726-baf1-d840f747cff9
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "No peleamos\u2026 m\xE1s bien\u2026 \xE9l habl\xF3\u2026 "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 45806
+      y: 773
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f1ed2997-d548-44ef-a2af-56e041086904
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "y habl\xF3\u2026"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 46305
+      y: 773
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: bc003695-7a45-488e-b639-36d21040d6fb
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: ...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 59476
+      y: 865
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f27919d7-927c-432f-b70b-34f7787932fc
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: ...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 59975
+      y: 865
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 0d1c9998-0d41-44c3-823a-bb400f7bb26c
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Porque ahora mismo quiero llenarme la boca con otra cosa\u2026"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 68893
+      y: 849
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 529d5bac-0f91-4268-8735-86280cb7ed73
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 69392
+      y: 849
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1d9bd58f-468d-410d-9597-7f03d1c48d25
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Eso s\xED que lo enojar\xEDa demasiado\u2026"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 67317
+      y: 849
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3a4d2632-8588-4e0d-a0d5-ae154d1d1b38
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Algo que no puedo contarte a\xFAn\u2026 "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 66818
+      y: 849
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 4c0231c8-2d74-408e-88f7-588f238e3ef3
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "No tanto como otras cosas\u2026\r"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 65740
+      y: 849
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d1406266-6e4b-45fc-8e61-7e5eecfc960b
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "A mi padre no le importa con qui\xE9n paso mi tiempo."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 65241
+      y: 849
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 52267199-af90-4ddb-bed1-03836b568670
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Y que me gustaba jugar con ambas cosas. Y encontrarles usos nuevos
+      cada d\xEDa."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63619
+      y: 870
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3a2dca46-d06e-44db-8aad-0e652f39173f
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Le dije que ten\xEDas un pene y una boca enormes."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63120
+      y: 870
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 908286e2-9dee-4b1d-92b0-880311069ebe
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Y en efecto, me habl\xF3 de t\xED. "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 62621
+      y: 870
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 626f6525-6d22-4987-8235-c58bf5e9dd42
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: Se lo dijo a mi padre.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 62122
+      y: 870
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c2359d79-1ed9-4bec-b66c-c842d79baf9a
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: Vala.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 61623
+      y: 870
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2182217d-a5df-41a3-b6a4-38790c0e9f2d
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Claro que s\xED. Pero cr\xE9eme que te gusta que est\xE9 estimulado. "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 58924
+      y: 713
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ef46b030-a686-4acd-a7e3-f48da6693b39
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Adem\xE1s me excita mucho m\xE1s."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 57821
+      y: 713
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8cd8d75b-aaee-4055-91ce-98dbcaee9dd0
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: 'Pero si lo hago. '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 57322
+      y: 713
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f7ad7b81-e5c7-4f28-9a43-b0fbd937b010
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: Te pareces a mi padre.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 55250
+      y: 774
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ed386939-0629-4b0e-940f-09a0a844c488
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: Hmpf...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 54751
+      y: 774
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 53c6661b-1c0b-44dc-bc45-3e71ae661bc6
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "\xBFNo quieres?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 53677
+      y: 774
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 438c4c25-4384-425e-821d-3be7f4ab4109
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Preferir\xEDa una l\xEDnea de Sand."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 52627
+      y: 774
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: bceebb04-d2f6-46cf-8c0f-533932a3c1b5
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: Y fue un accidente.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 51556
+      y: 774
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e36b0868-8344-4813-89b4-6cddfaa4352c
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: ...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 51057
+      y: 774
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 285ae67b-d8bc-4f82-b3c4-f7fd17c876c0
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: 'No pasa nada. Fue hace mucho. '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 50558
+      y: 774
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d3fa1b1c-f3d4-4f85-b035-fea3898e7dff
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Epitaph est\xE1 muerto, Sebastian."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 49457
+      y: 774
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c7ccb38b-5f19-4800-89da-be04e195922b
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Pero no deber\xEDa haber metido a mi hermano en la cuesti\xF3n."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 47802
+      y: 773
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 0a834c20-6c3f-495f-9fdd-16be5dcceabe
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "No me molesta que me diga que tan decepcionado est\xE1 de mi. "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 47303
+      y: 773
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3eed6d3a-27fa-40a5-951e-b4608e076746
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: ...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 46804
+      y: 773
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d1b39e1c-166c-4661-9bc8-396cdd0013c0
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: ???
+    dialogueText: "\xBFTu hermano\u2026? "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 48365
+      y: 865
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ee646447-8d44-46d2-9b98-a62eb8ce6b6f
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: ???
+    dialogueText: "No sab\xEDa que ten\xEDas un hermano\u2026 \xBFGuapo como t\xFA?
+      \xBFMe lo presentas?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 48864
+      y: 865
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 4fc00736-3209-4feb-9bb2-31d6f6a1e27d
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "Oh\u2026 lo siento mucho. No lo sab\xEDa."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 50013
+      y: 865
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e46c75b2-ab50-42dd-8b7d-5e3ac5fbf2aa
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\xBFNo quieres hablar de ello?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 52090
+      y: 865
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 44197859-73d4-49b6-a192-8024908df3f6
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\u2026"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 53151
+      y: 865
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7b2d4eb9-f126-4cf0-840e-a39b93c1ab76
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\xBFNo sientes que deber\xEDas cuidarte un poco con eso?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 54213
+      y: 865
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 25a76058-11c6-4808-a7aa-b36155bfd849
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: 'Solo me preocupa un poco. '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 55798
+      y: 865
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 03afa694-99c4-4be9-89cf-5060ae77a232
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: 'Te pones un poco agresivo cuando tomas esa cosa. '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 56297
+      y: 865
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 63ad36ce-b716-4f87-b12b-b102229b2183
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "Adem\xE1s siento que no me escuchas cuando est\xE1s drogado."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 56796
+      y: 865
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 296c5ac6-ed86-438d-ba03-15fdedcd463b
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\xBFEst\xE1s diciendo que no te excito sin drogas?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 58377
+      y: 865
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d653cb33-90a3-4492-96a5-94d7892143d4
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\xBFTu padre volvi\xF3 a preguntarte por mi? "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 60520
+      y: 713
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3a39d571-45da-4cdc-be48-550ba5c71c76
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "Una se\xF1ora me atrap\xF3 cuando intentaba escabullirme de \xE9l.\r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 61019
+      y: 713
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8510235b-bd45-47cf-bd33-a7bd12e6cc66
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: " \xA1Aradelio\u2026! "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 64174
+      y: 696
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b4f5e499-3d89-408c-a962-da48dd15fa27
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "Eso debi\xF3 haberlo molestado bastante\u2026\r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 64673
+      y: 696
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c7f11649-b20e-4f8f-944a-9170c9e4b0d3
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\xBFComo qu\xE9 cosas?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 66274
+      y: 696
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1ba85fcd-74cf-4d6f-8b5b-29bc395b8999
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "Ahora te haces el misterioso\u2026"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 67850
+      y: 696
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5f60deaa-4174-4a6b-a12f-97b2b3f2c4c2
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\xBFPor qu\xE9 no me cuentas?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 68349
+      y: 696
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d1ed362b-9346-4302-bc85-9513f3ac8cbe
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "De repente su padre se frena en seco, lejos de los o\xEDdos de
+      alguien m\xE1s.\nAradelio casi choca con \xE9l."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11321
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1b3d9ab9-88a9-4171-ab0f-240a30ba67e0
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Si. Te entend\xED la primera vez. \nY la segunda. \nY la vez n\xFAmero
+      doscientos.\n...\nUnas 100 veces m\xE1s... y me quedar\xE1 claro..."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 24295
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: dae79616-1d8f-49a2-a31e-bc6f3ab8b305
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Pero tranquilo. \nA Sebastian no le interesa en lo absoluto la
+      magia.\n...\nMucho menos los secretos de nuestro preciado aquelarre."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 24794
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 4423d528-a119-427b-bde0-e807345aac52
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "Lo creas o no, hay cosas m\xE1s importantes que eso."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 25293
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3c045561-8da7-48d3-9177-cd75d9600ee2
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "Lo dir\xE9 las veces que sea necesario.\nSi mi propio hijo fuera
+      el responsable de destruir todo aquello que tanto tiempo nos ha tomado construir..."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 26291
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 89a54c36-e43c-4f4f-8c48-f9c3bdf9ab16
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "A\xFAn no he conocido a nadie lo suficiente como para llevar un
+      compromiso tan grande. Nadie me convence demasiado.\nPor eso prefiero divertirme."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 34275
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ff33867e-c096-493c-9a1b-e126efebcfe7
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: ...
+    backgroundSpr: {fileID: 21300000, guid: 7bf7c4906590f5b4cbe44e1c33e58b36, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 36271
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: dab4f18e5fc5d2e4ca887e74ad25fa89, type: 3}
+  - guid: d303501d-2228-4e89-acb3-487f5687cf1a
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: ...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 39972
+      y: 112
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 5b64dbaa4f870f24dad60bb840d3650b, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 15a556e4-9d2f-4134-b3fc-c26406080550
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "Y recuerda que para t\xED soy \"padre\", Aradelio."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 41917
+      y: 481
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: bcd1e233-8230-4f1e-8794-16307b12ed57
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "Y si su memoria es lo que hace falta para que dejes esa porquer\xEDa..."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 41418
+      y: 481
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 4976b0b0-a854-4f74-baa0-53c88a0b0737
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 43719
+      y: 884
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 17bbea8ab24a73546aae10efd426cf09, type: 3}
+  - guid: 8514b0b8-e65a-4918-aa9c-479e825d787a
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Es de noche, y Aradelio comparte un cigarrillo con Sebastian en
+      lo alto de la torre. El \xFAnico lugar del castillo donde ni su padre ni ning\xFAn
+      miembro del aquelarre lo molestar\xEDan. "
+    backgroundSpr: {fileID: 21300000, guid: c008f4019248216409f293b3ab14284f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 44218
+      y: 884
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e2c1900b-f6a6-4978-91e7-1f02901c4b74
+    characterSpr: {fileID: 21300000, guid: 15b4d93e0dfebf8458cf344dc625f3fe, type: 3}
+    characterName: Vala
+    dialogueText: '"Su padre lo llama. Es hora de cenar."'
+    backgroundSpr: {fileID: 21300000, guid: 0d9b9fe30f07c4a438aad6e0409805e5, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3721
+      y: 377
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 65ccd0c4-6912-45ce-8731-1e3aa9a3fd57
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: ???
+    dialogueText: '"No tengo hambre."'
+    backgroundSpr: {fileID: 21300000, guid: 0b14a426c94c03e40a9e824c215f2984, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4220
+      y: 377
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e8143713-7791-4f86-b92d-f75335350c4d
+    characterSpr: {fileID: 21300000, guid: 15b4d93e0dfebf8458cf344dc625f3fe, type: 3}
+    characterName: Vala
+    dialogueText: '"..."'
+    backgroundSpr: {fileID: 21300000, guid: 0d9b9fe30f07c4a438aad6e0409805e5, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4719
+      y: 377
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 90a313d0-69f8-4d14-b3f2-0d185c8100fc
+    characterSpr: {fileID: 21300000, guid: 15b4d93e0dfebf8458cf344dc625f3fe, type: 3}
+    characterName: Vala
+    dialogueText: "\"Hace mucho que el j\xF3ven mago no tiene hambre. \n\xBFSe encuentra
+      bien?\""
+    backgroundSpr: {fileID: 21300000, guid: 0d9b9fe30f07c4a438aad6e0409805e5, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5218
+      y: 377
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e08847c4-db77-48e4-b103-47b28d1b6735
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: ???
+    dialogueText: '"Me encuentro perfectamente, Vala... es solo que..."'
+    backgroundSpr: {fileID: 21300000, guid: 0b14a426c94c03e40a9e824c215f2984, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5717
+      y: 377
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9f4d4bb6-586b-4223-9fbf-ff8393d61b92
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: ???
+    dialogueText: '"..."'
+    backgroundSpr: {fileID: 21300000, guid: 0b14a426c94c03e40a9e824c215f2984, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - Estoy cansado.
+    - He comido fuera.
+    nodePosition:
+      serializedVersion: 2
+      x: 6216
+      y: 377
+      width: 499
+      height: 369
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f2b51242-2709-44a6-8382-34e949129827
+    characterSpr: {fileID: 21300000, guid: 15b4d93e0dfebf8458cf344dc625f3fe, type: 3}
+    characterName: Vala
+    dialogueText: '"..."'
+    backgroundSpr: {fileID: 21300000, guid: 0d9b9fe30f07c4a438aad6e0409805e5, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7274
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: aff31d8e-99d2-4451-b710-b4a1126fc89d
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: ???
+    dialogueText: "\"\xBFQu\xE9 ocurre, Vala?\""
+    backgroundSpr: {fileID: 21300000, guid: 0b14a426c94c03e40a9e824c215f2984, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7773
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b71f78f0-de70-4a8d-b72c-a8f9b24f1e55
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: '"Que tu padre te ha pedido que bajes, Aradelio.
+
+      ...
+
+      Yo
+      me encargo, Vala... Gracias."'
+    backgroundSpr: {fileID: 21300000, guid: 0d9b9fe30f07c4a438aad6e0409805e5, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8272
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 5b64dbaa4f870f24dad60bb840d3650b, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 2a7b219d1318ad04ba43f7576c0dc850, type: 3}
+  - guid: 3e23d27b-3cda-48da-a907-f652668c44a0
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "\"Es hora de que dejes este comportamiento in\xFAtil, Aradelio.\""
+    backgroundSpr: {fileID: 21300000, guid: 0d9b9fe30f07c4a438aad6e0409805e5, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8771
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a8a219b7-d95a-4541-9282-047e35ff9adb
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "\"Camina conmigo. \nDebemos hablar.\""
+    backgroundSpr: {fileID: 21300000, guid: 0d9b9fe30f07c4a438aad6e0409805e5, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9270
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d9388c97-8ab8-4d8d-a24f-078d0b27a661
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Era una situaci\xF3n que el chico conoc\xEDa bien. \nCasi que
+      podr\xEDa recitar las palabras que el anciano le dir\xEDa de memoria si quisiera.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10822
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 6d458c65-7610-4db5-9964-30d3918ecb9a
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "El muchacho, aunque de mala gana, sigui\xF3 a su padre, l\xEDder
+      del aquelarre, quien caminaba decidido por los mortuorios pasillos de piedra
+      con los brazos entrelazados detr\xE1s de la espalda.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10323
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 433248dd-228f-4eeb-a58d-23d0a3e17ea3
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: '"Hace mucho que no te veo por la casa..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11820
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7f4118d7-65e3-4f53-a497-248c5d2f2d32
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "\"\xBFQu\xE9 est\xE1 ocurriendo? \n\xBFQu\xE9 est\xE1 llamando
+      tanto tu atenci\xF3n que no apareces?\n\xBFQue Vala afirma que nadie contesta
+      al tocar en tu habitaci\xF3n?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 12319
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: aa9ec72f-889a-42c7-9918-a27b34854f3a
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: '"Nada, padre. Solo estuve ocupado."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 12818
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: cc5dbe9f-bc52-4398-b71d-89a0adb29680
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: '"Ocupado con actividades que nada tienen que ver con tus responsabilidades,
+      imagino."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 13317
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 0d2d399b-6b95-4103-b73f-64383ecf72fb
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: '"En efecto."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 13816
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 82feda25-5dd7-4d7c-8fe3-3572d61ec427
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "\"Siempre me asombr\xF3 tu descaro.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 14315
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 354826ab-b27d-4aa7-b015-9bccbeefa65e
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "\"Vala me ha dicho que un muchacho\u2026 desnudo\u2026 ha aparecido
+      correteando por la entrada. \""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 14814
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 30149c9a-0d28-4406-893d-3723219d870f
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "\"Y alguien ha vuelto a encontrar lo que describi\xF3 como \u201Cgranos
+      de arena rojiza\u201D en los pasillos. \""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 15313
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e52816cd-dbfd-4143-b9b7-af608deeec12
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: '"..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 15812
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 767abcf6-dbbc-4b30-81be-23c5bec6790f
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: '"Andas en malos pasos nuevamente, Aradelio."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 16311
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: aea5fe0e-ee9c-4846-af88-2e7a69e925db
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: '"Sabes que si no deseas cumplir con tus deberes de hechicero ese
+      es tu problema."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 16810
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9d3d20fe-234c-46dc-a0d7-3e8cb7e179e2
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "\"Pero perturbar al resto del aquelarre con tus perversidades
+      y tus cuestionables formas de diversi\xF3n es harina de otro costal.\r\"\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 17309
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: bc8b43e7-f4ae-4c85-803b-3d12b1512cc8
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: '"..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 17808
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ec2c76f0-94ae-47c2-832f-90c0cb86c293
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "\"De acuerdo, padre. No volver\xE1 a suceder.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 18307
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 57ac3fdf-a7d5-4c73-b59e-164e53284e71
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: "\"Bien, \xBFeso es todo...? Debo seguir con algo...\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 18806
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b316a181-0f0d-4a23-b7ce-90ecbc408d38
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: '"No. No es todo, muchacho."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 19305
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 5b64dbaa4f870f24dad60bb840d3650b, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: f643f700-41a5-44ce-8e7b-42639cb9f1fc
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: '"Hmmm. Genial."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 19804
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8dab1423-a347-4ef8-ac2e-c1927bbfb040
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "\"\xBFQui\xE9n era ese muchacho, Aradelio?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 20303
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 17f07336-165f-478d-80f8-d198dbb94d82
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: '"No es asunto tuyo."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 20802
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c869b363-1ef9-4598-a750-4cc17ffa44e5
+    characterSpr: {fileID: 21300000, guid: d06eb82a7d7f34b4d94c592f13619c0b, type: 3}
+    characterName: Prohelius
+    dialogueText: "\"Sin embargo, sigues viviendo bajo mi techo, y mientras lo hagas,
+      todo lo que te rodea sigue siendo \u201Casunto m\xEDo\u201D. \""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 21301
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: bbd71952-83eb-40c4-8edd-f54196c2279d
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: '"Se llama Sebastian. No es hechicero."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 21800
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 45c7b38e-d750-409b-8043-2b74d73bf119
+    characterSpr: {fileID: 21300000, guid: 15b4d93e0dfebf8458cf344dc625f3fe, type: 3}
+    characterName: Vala
+    dialogueText: '"Entiendo... pero..."'
+    backgroundSpr: {fileID: 21300000, guid: 0d9b9fe30f07c4a438aad6e0409805e5, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6775
+      y: 417
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7bc57db1-e271-4200-803d-d0011d33e254
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: Aradelio
+    dialogueText: '"Y no me llames hechicero... Por favor..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6775
+      y: 857
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 0243ee1a-4de2-4b4a-be89-683ad7b95b7e
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Lo azota nuevamente un sue\xF1o recurrente, y se remueve entre
+      sus s\xE1banas de terciopelo, mientras transpira y gesticula con violencia."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 70524
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 588da387-a558-4029-8898-ba0f07b07a4c
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Es un sue\xF1o que rememora una escena de su pasado, la muerte
+      de su hermano Epitaph. "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 71023
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d422ec6e-15d0-45ef-a487-3d059b152863
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "El joven despierta, jadeando.\r"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 71522
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 636eacb4-89e2-44f9-9aed-82946e657b82
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Volvi\xF3 a chasquear los dedos, que no afectaron en lo absoluto
+      la llama, y el cielo comenz\xF3 a oscurecerse, como si el sol hubiera desaparecido."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 82999
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: fe028c7d-b4bf-49cd-80e7-7f1aba02e2ec
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Aradelio no prest\xF3 atenci\xF3n a los espasmos aterrorizados
+      de Sebastian, ni tampoco se inmut\xF3 cuando las gotas de lluvia comenzaron
+      a mojarle el pelo, y resbalar por sus mejillas, como l\xE1grimas saladas."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 83498
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 008e3919-fe77-4c8d-9ae5-89b971713077
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Sebastian miraba las gotas y luego su cuerpo, como si le hubiera
+      desaparecido un brazo.\r"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 83997
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 6b536f75-a065-40b5-8bbd-c9f61ba3e39f
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Aradelio volvi\xF3 a chasquear los dedos y la lluvia ces\xF3 instant\xE1neamente."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 85494
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 802d801e-da9b-4284-9929-1ac1ddcac59d
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Los dos muchachos estaban perfectamente secos, y las nubes comenzaron
+      a desaparecer, una a una, volviendole a dejar lugar a un sol carmes\xED.\r"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 85993
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: dc4e3fb8-7a07-42b2-9c72-4eb50d32a601
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: Aradelio duerme intranquilo.
+    backgroundSpr: {fileID: 21300000, guid: fa1f63b6218192240ab370053d9fb813, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 70025
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3e81ffe9-c15c-4509-a0e8-97ef1947f810
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"Has tenido una pesadilla, \xBFverdad?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 72021
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 347eca77-0603-4d40-b61c-f900a9e3c484
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"\xBFHablas de tu hermano?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 74017
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: de75faaa-7f16-4cca-9aac-b01cc72158a2
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"\u2026\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 75015
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d00dad25-58de-462f-9316-fce14d40645f
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"Mi madre siempre dec\xEDa que todo aquello que nos preocupa
+      son fantasmas que se han quedado atascados en nuestros cuerpos.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 75514
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 390113b5-adda-4d57-bdce-53283f6821c7
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"No encuentran la salida, y entonces intentan que pensemos cosas
+      feas para poder llorar\u2026\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 76013
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a8312483-8b39-457d-b207-b3c191503986
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\" o que hablemos\u2026 de esa manera ellos pueden salir. En forma
+      de l\xE1grimas, o con forma de aire\u2026\r\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 76512
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 529bada3-4832-4341-ba90-5af9b2c873a1
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: '"..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 77011
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d17538db-d1a2-4d55-ba31-4573478dac31
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Que historia tan extra\xF1a\u2026\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 77510
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 91567b80-65cc-4c80-b815-c29048691d79
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"\xBFNo podr\xEDan salir en forma de mierda?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 78009
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1b1984f3-5abf-412f-a1af-72ce8819822e
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"Jajaja\u2026\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 78508
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 898f9a7e-b68b-42ca-92f2-639065d0bdba
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"Es bastante est\xFApido\u2026\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 79007
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: cd11b807-1ada-4cdb-bc6c-7d5f66ed32bf
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"Pero me ayud\xF3 a entender que llorar es necesario\u2026 as\xED
+      como hablar de nuestros problemas\u2026\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 79506
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7c7084a3-2514-4f65-bae0-949ff8287bc1
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"\xBFNo quieres contarme qu\xE9 fue lo que sucedi\xF3?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 80005
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 38ed1f9b-e7a8-4148-977a-d2277db0bbb5
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Es mucho m\xE1s complejo de lo que parece\u2026\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 80504
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a63ba208-1a78-417b-8adc-a4f03062035d
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Soy un hechicero, Sebastian\u2026 O al menos\u2026 podr\xEDa
+      serlo\u2026 si quisiera.\r\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 81003
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f84013ba-99bf-46fc-9392-16deb5ba8bdd
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"Si no quieres contarme est\xE1 bien, pero no es necesario que
+      te hagas el tonto conmigo.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 81502
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3d06f99e-0e1f-4b01-b1ea-0ca783ed3166
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Es en serio, Sebastian. Mira esto\u2026\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 82001
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a68d59f6-f651-4ec6-a8b7-969bd4369911
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"Llueve\u2026 Pero el agua no me moja\u2026\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 84496
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 4686722c-71b7-406a-84a4-708c6f3d6c1c
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"\xA1Ah\u2026 y la llama sigue intacta!\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 84995
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 41317b4b-318b-4b66-9015-ae859cbe7595
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"Esto es una locura\u2026 \xBFLo hiciste t\xFA realmente?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 86492
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 030856d0-c9c2-4386-93e2-2320c09f243a
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"\xBFQu\xE9 no te importa? \xA1Esto es demasiado\u2026! Hmmm,
+      debo confesar que siempre sent\xED que eras muy diferente, Aradelio\u2026 Estar
+      contigo es muy extra\xF1o\u2026 pero esto no me lo esperaba, definitivamente
+      que no\u2026 \r\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 87490
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 204c2cf7-0f1a-47f3-8a5b-6c7b9942f632
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"No digas eso. Me gustas. Y lo sabes. Me gustar\xE1s siendo\u2026
+      hechicero tambi\xE9n\u2026\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 88488
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 6872ae1b-06a8-474b-9890-3a123baf5f83
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"\xBFEh? Es decir\u2026\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 89985
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 04bfef4d-b215-4fac-b07f-654d49c423e1
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"\xBFY qu\xE9 hiciste con \xE9l\u2026?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 95520
+      y: 1308
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5a0198f2-be06-4b58-a1d2-2d8ad9d7151a
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: ...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 96642
+      y: 1349
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 286b45ce-7c06-4adb-a4cb-b3ef61808bd8
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"Pero t\xFA no sab\xEDas que era un anillo m\xE1gico, \xBFverdad?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 97141
+      y: 1349
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2d8acdda-8708-4594-a7f3-1ce8fc930e31
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"\xBFA qu\xE9 te refieres?\r\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 98275
+      y: 1370
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 09adc1b7-ab64-41cd-860d-ce92e2768016
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"Dijiste que no sab\xEDas que era un anillo m\xE1gico\u2026 estabas
+      desesperado\u2026\r\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 104849
+      y: 1352
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7b8595f6-2834-4b56-89b4-2c48b9fe5726
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\xBFY a qui\xE9n le vendiste el anillo?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 107420
+      y: 1340
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 283b82a9-c16b-46c4-9a1d-5e00281404c4
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "Ah... Quiero decir... Si supieras podr\xEDas recuperarlo..."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 108549
+      y: 1346
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3332635a-b56a-44b2-a203-4a915b4ee7a1
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: '"Eso es muy duro..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 110668
+      y: 1381
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 24a90d73-2e8e-4d40-b0bc-376ff45efb9d
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: '"No eres una mala persona, Aradelio..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 111791
+      y: 1465
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 51b5e44f-547c-4db9-9230-fee11fd2a953
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: '"Pudiste haber tomado malas decisiones...
+
+      Pero eso no te
+      convierte en alguien malo...
+
+      Simplemente te vuelve..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 112290
+      y: 1465
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1ca3e3e2-929c-4de3-bce1-fc0f97975e1a
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: '"Lo siento mucho."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 114508
+      y: 1556
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a2613d1f-f256-499d-a8d2-7cd5b0ed3068
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"Ah... S\xED... sobre eso... Se me ha hecho demasiado tarde,
+      Aradelio...\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 115688
+      y: 1556
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 73c6c4ef-2cf4-4168-9885-efdc2983d3b4
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"En casa deben estarse preguntando d\xF3nde estoy...\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 116187
+      y: 1556
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 363d0ea6-77df-4191-87f9-dae9bcaedd5d
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"Lo s\xE9...\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 117321
+      y: 1454
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5ab37fc6-fcb1-497c-b99c-2dbecf8c2ed1
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: '"..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 117820
+      y: 1454
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: aceba876-662a-4c34-aff9-4816253048ee
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"\xBFEstar\xE1s bien?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 118926
+      y: 1454
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 45396d11-19bb-4402-82a2-e0c2e95654e8
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: 
+    dialogueText: "\"De acuerdo. Adi\xF3s...\nY lo siento mucho.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 120075
+      y: 1454
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: bd2f843d-6517-442b-b91f-09595b6c3725
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: '"Si."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 72520
+      y: 1031
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1b29206d-ca29-4175-b3a0-64952f4185cd
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: '"..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 73019
+      y: 1031
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 298bd9e8-7b81-4fc9-9214-7a7415b58022
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Hac\xEDa mucho que no so\xF1aba con \xE9l...\nHac\xEDa mucho
+      que nadie lo mencionaba...\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 73518
+      y: 1031
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 79d21fc7-c2f0-4620-8249-30cab0e9350e
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: '"Si..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 74516
+      y: 1089
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ad08f702-4540-48aa-aa2c-ea1738657a1f
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Y entonces el joven chasque\xF3 los dedos, y de sus dedos sali\xF3
+      una llama que se sosten\xEDa, indiferente al viento, y la noche, y al fresco
+      de la madrugada."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 82500
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 0028b03c-962c-470e-84a9-fa80c70b4253
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Si. Y eso no es todo. Soy un hechicero muy poderoso... O al
+      menos lo era antes de comenzar a consumir Sand..., Sebastian. Soy el hijo del
+      l\xEDder de un grupo de brujos que llevan centenares de a\xF1os buscando burlar
+      la muerte, con el or\xEDgen de sus poderes. Pero eso no me importa\u2026\r\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 86991
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 05600685-8e81-4193-8216-265ca1fbf115
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Lo comprendo. Y comprendo si no quieres volver a verme. Pero
+      debes conocer acerca de mis poderes, Sebastian. Si no, contarte acerca de mi
+      hermano no servir\xE1 de nada.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 87989
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 99f94506-925f-427e-8284-c1f3abb85077
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"\u2026\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 88987
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 828e91e3-983a-4947-ade6-aefab728d610
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Es a\xFAn m\xE1s complicado que eso. Soy quien tiene el poder
+      para revivir a los muertos, Sebastian. \""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 89486
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b3a8bcfe-ea46-46eb-a437-257ba0d02d5c
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Epitaph era mi hermano mayor. Pero a diferencia m\xEDa, \xE9l
+      acept\xF3 su don de hechicero con mucho gusto y orgullo.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 90484
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 29205dbe-543b-48cd-a5ed-74f33e02744a
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Fue quien ayud\xF3 a mi padre y a mi madre con cientos de cuestiones
+      y problemas del aquelarre. Estaban obsesionados con expandir sus conocimientos,
+      y sus poderes.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 90983
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 26fa422f-39c6-4da9-af43-a3186936df4d
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Pero mi madre ten\xEDa otras ambiciones. Quer\xEDa encontrar
+      un objeto llamado anillo resurrector. Un anillo que le otorga a un hechicero
+      la habilidad para revivir a los muertos. \""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 91482
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d810d116-ef4d-4d6d-a1f4-276571d2a10c
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Sin embargo, lo que ella no sab\xEDa, es que toda vida se devuelve
+      por un precio: el de otra vida.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 91981
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c5398c31-050a-4730-abd3-ed6e66276dc0
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Mi madre mantuvo su descubrimiento en secreto durante mucho
+      tiempo, pero cuando finalmente se decidi\xF3 a ponerlo en pr\xE1ctica, ya era
+      demasiado tarde.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 92480
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ca6c5a40-65ca-4937-9b16-e5014bb3761b
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Aquello devast\xF3 a mi familia.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 92979
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a079c3b7-287e-4d4c-b990-9c70d77b4ca2
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Mi padre encontr\xF3 las notas de mi madre y decidi\xF3 embarcarse
+      en la misma b\xFAsqueda, al igual que mi hermano.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 93478
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 43c3d22c-b149-47eb-a963-582b7d43a03e
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: '"Experimentaron demasiado, sin saber realmente que lo que buscaban
+      era un anillo."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 93977
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 51d28235-687e-43dc-91f2-056977cb22bc
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Un d\xEDa una de sus experimentaciones sali\xF3 mal\u2026\n...\ny
+      mi hermano muri\xF3. Aquello fue lo que acab\xF3 con la cordura de mi padre,
+      pues no pod\xEDa dejar de culparse por ello. Pero \xE9l no sab\xEDa que alguien
+      hab\xEDa encontrado el anillo.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 94476
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 17622d6b-5a5d-4b5f-ad70-61769f2bebb0
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: '"...Yo"'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 94975
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f58ad83a-1257-437b-b726-1971b479dbf6
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "Lo vend\xED por Sand. Lo vend\xED y compr\xE9 drogas con el dinero
+      que obtuve."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 96065
+      y: 1241
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 968af144-703c-4e14-bd7f-7b634fc00bef
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"No. No lo sab\xEDa\u2026 al menos en ese entonces. \""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 97697
+      y: 1230
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 67bc57f5-0be9-4144-bfd7-2ebcda011248
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"La noche que mi madre muri\xF3 yo escuch\xE9 c\xF3mo su cuerpo
+      cay\xF3 al suelo. Era de noche, y yo estaba drogado, por lo que no pod\xEDa
+      dormir.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 98861
+      y: 1218
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: fe2be6c4-7ee1-4b74-9e51-0df30b0649d6
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Me asust\xE9, no sab\xEDa qu\xE9 hab\xEDa sucedido, y producto
+      de la paranoia, entr\xE9 en el cuarto. Ella me miraba desde el suelo, agonizando\u2026
+      y en ese momento vi en sus ojos una gran decepci\xF3n.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 99360
+      y: 1218
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1c9d6d50-c02e-42e1-a480-0b4ddafc4b6c
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Ella necesitaba a mi hermano. O a mi padre. Alguien que supiera
+      de magia, pues era un problema m\xE1gico.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 99859
+      y: 1218
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c618df0d-3776-482d-84a0-f05fc0883615
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"En cuanto me vi\xF3 su mirada de expectativa cambi\xF3 a una
+      simple sonrisa complaciente.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 100358
+      y: 1218
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 17f5895b-e73a-4803-923c-df876a14203c
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Entendi\xF3 que su destino estaba sellado.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 100857
+      y: 1218
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d2ae14ec-2139-4b9f-81a8-49fb72a3a68a
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: '"..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 101356
+      y: 1218
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 52c4b4f7-d598-4117-9644-1a4d75da4c7c
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"En el momento no supe qu\xE9 hacer. Ella dej\xF3 de moverse,
+      y simplemente me qued\xE9 all\xED, mir\xE1ndola.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 101855
+      y: 1218
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a0a9d021-07d8-4c41-bd17-4898100154ed
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: '"..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 102354
+      y: 1218
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ebf5b0a0-35fa-47d5-b958-89c8d6905cd1
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Un gato muy extra\xF1o... con tent\xE1culos... apareci\xF3 en
+      el marco de la ventana, y miraba la escena con unos ojos espantosos. Entr\xF3
+      en la habitaci\xF3n, y como si yo no estuviera comenz\xF3 a mordisquear un
+      dedo de mi madre.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 102853
+      y: 1218
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9cf22d8f-8ffd-4f0a-ad4c-0edb04788822
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Apart\xE9 al gato con tanta fuerza que profiri\xF3 un doliente
+      maullido. Entonces v\xED lo que estaba mordiendo el gato realmente: un anillo
+      dorado con un cristal que parec\xEDa un ojo.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 103352
+      y: 1218
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5784f524-495a-4b02-92da-5946d4d632ec
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Y entonces\u2026 \u2026 Simplemente se lo quit\xE9. Estaba qued\xE1ndome
+      sin dinero\u2026 Sin drogas\u2026 Sin nada\u2026 Mi instinto de supervivencia
+      se activ\xF3 y\u2026 No estoy contento con mi actitud Sebastian. Con mi falta
+      de sensibilidad.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 103851
+      y: 1218
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: be1f2b44-4ddc-46bb-99c2-70d097c062d2
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Pero fue aquello lo que me sac\xF3 de mi estupor y me hizo correr
+      a buscar a mi padre y a mi hermano. \""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 104350
+      y: 1218
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: fbee46cd-72b8-4786-b88c-d21ede272868
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Eso no cambia lo que sucedi\xF3. Al d\xEDa siguiente fui al
+      mercado del pueblo, y lo vend\xED. Y detr\xE1s m\xEDo estaba ese est\xFApido
+      gato nuevamente.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 105348
+      y: 1218
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d80cc24c-e815-4a4f-94e8-bd565b789324
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Lo recuerdo porque intent\xF3 morderme. Tal vez quer\xEDa vengarse
+      por el golpe que le hab\xEDa dado.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 105847
+      y: 1218
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a09a671a-fe59-44ed-a6da-26f81d782eea
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"\u2026 \""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 106346
+      y: 1218
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8ee288d7-de51-4f31-b2e4-158b3a89eead
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"En fin. Los a\xF1os pasaron y las investigaciones de mi hermano
+      y mi padre eran cada vez m\xE1s meticulosas. Descuidaron al aquelarre en repetidas
+      ocasiones debido a que estaban demasiado enfrascados en la b\xFAsqueda de la
+      inmortalidad.\r\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 106845
+      y: 1218
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7aed6892-2c51-45fc-bd71-e8bb1876311d
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\xBFHuh?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 107987
+      y: 1216
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ff375522-50ac-43f7-9d4d-c8bf386d271b
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: '"..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 109110
+      y: 1285
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 6bb0350a-a226-48e1-82c6-a7e3b0b00191
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Si lo supiera ya lo habr\xEDa intentado\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 109609
+      y: 1285
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f7e823f1-e0fd-43ff-a551-391a9509e002
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Si pudiera recuperarlo... Dar\xEDa mi vida sin dudarlo con tal
+      de quitar el peso de la culpa sobre mis hombros...\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 110117
+      y: 1295
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 423984f4-2a3e-4b94-9ff8-409311cd7922
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: '"Menos de lo que crees..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 111222
+      y: 1295
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1dd8e031-4f40-402e-8e84-dffe062f86f0
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: fa1f63b6218192240ab370053d9fb813, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - Humano.
+    - Normal.
+    nodePosition:
+      serializedVersion: 2
+      x: 112885
+      y: 1308
+      width: 499
+      height: 369
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2522c302-02af-43d7-a6f2-54e7404bd515
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Y eso no es lo que mi madre necesitaba...\nTe dije que se lo
+      vi en los ojos aquel d\xEDa...\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 113422
+      y: 1353
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a75a2832-b2c9-49f0-b350-e7ce1686a4fb
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: ...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 113921
+      y: 1353
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 473305e4-f45d-42be-8de3-ea0795c4e462
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: '"No importa... Volvamos a dormir..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 115083
+      y: 1353
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: be9dd2ff-679d-463f-be52-10997609a40e
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: fa1f63b6218192240ab370053d9fb813, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "A\xFAn es muy tarde."
+    - "Nunca te hab\xEDas ido as\xED..."
+    nodePosition:
+      serializedVersion: 2
+      x: 116749
+      y: 1390
+      width: 499
+      height: 369
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 0745857b-64db-4495-ac2d-f2485031c071
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: '"Descuida. Ve."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 118359
+      y: 1264
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 036fd462-4a3e-402b-ae64-d10c9bd1cbf2
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: '"No te preocupes."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 119491
+      y: 1264
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 86ecbfc5-98c8-4652-9ce4-4b1638ffb2f3
+    characterSpr: {fileID: 21300000, guid: 0c7e7d4663c56544098076824b29c6af, type: 3}
+    characterName: 
+    dialogueText: "\"Adi\xF3s.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 120640
+      y: 1264
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 45a22d56-4682-4bff-9012-dcaf79deaf5b
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Qu\xE9 extra\xF1o, pens\xF3 para s\xED el joven hechicero, y antes
+      de poder volverse a sumir en sue\xF1o profundo, tuvo que contener con fuerza
+      las l\xE1grimas."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 121139
+      y: 1264
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 80812312-0bfc-4106-80b1-c8c3a33e6a14
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Unas l\xE1grimas que pujaban con fuerza, como si quisieran abrirle
+      los p\xE1rpados."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 121638
+      y: 1264
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b21b9e66-c2b5-450b-8dd8-ed078662635a
+    characterSpr: {fileID: 21300000, guid: b15c2af56dae3fa45a3b6c36e3107e11, type: 3}
+    characterName: Belicus
+    dialogueText: "\"\xBFAlgo m\xE1s, Sebastian? Creo que ya hab\xEDas insinuado
+      este conocimiento en alguna de nuestras conferencias anteriores\u2026 \xBFMe
+      equivoco si asumo que hay algo m\xE1s que necesitas contarme con urgencia?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 126432
+      y: 1815
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c42a4e3f-c1bd-4a78-bfc8-797fb5e586e5
+    characterSpr: {fileID: 21300000, guid: b15c2af56dae3fa45a3b6c36e3107e11, type: 3}
+    characterName: Belicus
+    dialogueText: "Que descaro\u2026 Arruinar un potencial semejante\u2026 "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 125311
+      y: 1815
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3c069be9-02e5-4e88-acfd-415327f8c75c
+    characterSpr: {fileID: 21300000, guid: b15c2af56dae3fa45a3b6c36e3107e11, type: 3}
+    characterName: Belicus
+    dialogueText: "\"No creas que te juzgo. Simplemente me preocupo, Sebastian. No
+      estuve teniendo muchas noticias tuyas.\r\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 123057
+      y: 1815
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 80ebf644-839e-4a79-ab32-4eed1ecc0693
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\"Lo s\xE9, Belicus. Pero tengo noticias del joven hechicero.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 123628
+      y: 1900
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 0d4fe54e-eb7c-4db7-a6c5-f2edb9778c1f
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\"En realidad\u2026 bastante bien\u2026 El joven Aradelio es,
+      en efecto, un adicto a una sustancia llamada Sand, Belicus. El Sand es una
+      droga que utilizan muchos magos para debilitar sus poderes. Los atonta. Modifica
+      sus adn, de manera que eliminan mediante los fluidos corporales sus propias
+      part\xEDculas de hechicer\xEDa.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 124730
+      y: 1900
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 542076fa-f47f-4c48-b5c2-4bbc5992c269
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: '"..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 125869
+      y: 1900
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 49c57d2d-a738-467b-b298-f6ea7f7896a3
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\"No\u2026 Belicus. No se equivoca.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 127007
+      y: 1900
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: db73caf1-ff9e-464c-8db7-9a8de0f1cd94
+    characterSpr: {fileID: 21300000, guid: b15c2af56dae3fa45a3b6c36e3107e11, type: 3}
+    characterName: Belicus
+    dialogueText: '"Has hecho un buen trabajo, Sebastian."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 137023
+      y: 1809
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c0218653-6586-4ad3-9c82-7f2f1cecd959
+    characterSpr: {fileID: 21300000, guid: b15c2af56dae3fa45a3b6c36e3107e11, type: 3}
+    characterName: Belicus
+    dialogueText: '"..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 136524
+      y: 1809
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 78b9906e-36a5-4849-911a-8a615683dc6c
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\"Entiendo, se\xF1or.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 135917
+      y: 1900
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d81c7f8c-d5ca-4917-b211-d906926b02cc
+    characterSpr: {fileID: 21300000, guid: b15c2af56dae3fa45a3b6c36e3107e11, type: 3}
+    characterName: Belicus
+    dialogueText: "\"Creo lo mismo, Sebastian\u2026 Pero los hechiceros son vengativos\u2026
+      Y los adictos son impredecibles\u2026 Una persona como el hijo de Prohelius
+      no es de fiar\u2026 Y me temo que los cabos sueltos no nos benefician en nada\u2026\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 135329
+      y: 1809
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c1ae96ff-91d3-4013-826d-7e988550491d
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\"Es solo que el chico ha sufrido demasiado. Debo confesar que
+      mi coraz\xF3n albergaba la posibilidad de que una vez que usted recupere el
+      anillo y su forma humana, junto con su devastador poder\u2026 Tal vez el chico
+      podr\xEDa salir ileso\u2026 \xC9l no desea nada de lo que usted tanto anhela.
+      Se lo dar\xEDa sin pesta\xF1ear. \""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 134744
+      y: 1900
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 0f06fc3f-3cde-468f-a0da-d5a1498a0f88
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\"\u2026\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 134245
+      y: 1900
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 05255827-e775-480a-b755-f45dde45283e
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\"\xBFEh? \xA1No, Belicus, por supuesto que no! Es solo\u2026\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 133746
+      y: 1900
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 50887476-4713-4ff2-bae2-e8f7be131d43
+    characterSpr: {fileID: 21300000, guid: b15c2af56dae3fa45a3b6c36e3107e11, type: 3}
+    characterName: Belicus
+    dialogueText: "\"\xBFDebo preocuparme de tu fidelidad, Sebastian?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 133076
+      y: 1809
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 83daf59f-517f-416a-a512-314fa9350a70
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\"\u2026\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 132480
+      y: 1900
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9e33796a-3bb6-4bdb-a3c5-ba54d2c899ab
+    characterSpr: {fileID: 21300000, guid: b15c2af56dae3fa45a3b6c36e3107e11, type: 3}
+    characterName: Belicus
+    dialogueText: "\"\xBFCrees que \xE9l te querr\xE1 una vez que sepa que no eres
+      m\xE1s que un esp\xEDa? \xBFQue deseas la destrucci\xF3n de ese est\xFApido
+      aquelarre tanto como yo?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 131893
+      y: 1809
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 764a4b31-f858-4c46-8b43-24a446529e9a
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\"\u2026\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 131336
+      y: 1900
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: eaf4eeaa-250f-4a6c-b3c8-ef7cc95922e9
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\"Tal vez si Aradelio explicara a su padre lo sucedido\u2026 \xBFPodr\xEDamos
+      dejarlo en paz a \xE9l?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 130192
+      y: 1900
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5c7fb35a-b47a-4822-9911-66f9e457fd0d
+    characterSpr: {fileID: 21300000, guid: b15c2af56dae3fa45a3b6c36e3107e11, type: 3}
+    characterName: Belicus
+    dialogueText: "\"En efecto, Sebastian. Yo era quien espiaba a la familia de Prohelius
+      en cuanto su mujer descubri\xF3 el anillo. \u2026 Ese anillo me pertenece,
+      Sebastian. Y necesito que el joven lo encuentre. O su maldito padre.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 129653
+      y: 1809
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f9d20a53-003d-48cb-86d8-9c55ef157d32
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: "\"No luce muy sorprendido, se\xF1or. El joven hechicero mencion\xF3
+      a un gato, en dos oportunidades. Un gato que mordisqueaba el dedo de una madre
+      muerta\u2026 Y un gato que lo persigui\xF3 mientras \xE9l se internaba en los
+      mercados para vender el anillo.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 129103
+      y: 1900
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: fe8f31a2-d3fd-4e13-a8fa-2b717b415928
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: '""'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 128005
+      y: 1900
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2b4491e3-1ffd-4dba-9ac8-3c0e52f79063
+    characterSpr: {fileID: 21300000, guid: 644ff140a3b959a41944d6268efdd10c, type: 3}
+    characterName: Sebastian
+    dialogueText: '"..."'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 127506
+      y: 1900
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b5ea2edb-9fc9-4b19-b5b3-fdc37703bcad
+    characterSpr: {fileID: 21300000, guid: 15b4d93e0dfebf8458cf344dc625f3fe, type: 3}
+    characterName: 
+    dialogueText: Es Vala, ama de llaves del castillo y cuidadora de los secretos
+      del aquelarre.
+    backgroundSpr: {fileID: 21300000, guid: 0d9b9fe30f07c4a438aad6e0409805e5, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3222
+      y: 377
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: e73ea50ee5b66ac44ae8ae6414aaa4c9, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 57034390-09a7-407a-ae31-109ac8e6bd05
+    characterSpr: {fileID: 21300000, guid: b15c2af56dae3fa45a3b6c36e3107e11, type: 3}
+    characterName: Belicus
+    dialogueText: "\"Te noto atribulado, Sebastian. Nunca me molestas a estas horas.
+      Las bolsas debajo de tus ojos denotan noches de un sue\xF1o intranquilo y la
+      flacidez de tus m\xFAsculos que no te has movido demasiado.\""
+    backgroundSpr: {fileID: 21300000, guid: b22ce85d555bfeb4b927362eb638dabd, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 122059
+      y: 1815
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: cc562b42e4b6b384ca36dd566ea7b4f3, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 4520a2a6-1f78-4bbc-b636-b18aecd60e8e
+    characterSpr: {fileID: 21300000, guid: b15c2af56dae3fa45a3b6c36e3107e11, type: 3}
+    characterName: Belicus
+    dialogueText: "\"Ah\u2026 Aradelio\u2026 El poderoso mago que no desea saber
+      nada de la magia\u2026 \xBFC\xF3mo le est\xE1 yendo en su pretenciosa misi\xF3n?\r\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 124174
+      y: 1815
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: c7fc61ddd3048be49b39002970b09733, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: fbd97882-2641-4a5f-b53f-51ddeebed69f
+    characterSpr: {fileID: 21300000, guid: b15c2af56dae3fa45a3b6c36e3107e11, type: 3}
+    characterName: Belicus
+    dialogueText: "\"Ah\u2026 el secreto para revivir a los muertos a cambio de un
+      agente autodestructivo\u2026 Es casi po\xE9tico, \xBFno crees, Sebastian?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 128565
+      y: 1809
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: cc562b42e4b6b384ca36dd566ea7b4f3, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 10e61579-0afa-43a5-a438-a1ff33947cd7
+    characterSpr: {fileID: 21300000, guid: b15c2af56dae3fa45a3b6c36e3107e11, type: 3}
+    characterName: Belicus
+    dialogueText: "\"\xBFDejarlo en paz? \xBFAcaso estas encari\xF1andote con el
+      enemigo?\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 130761
+      y: 1809
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: c7fc61ddd3048be49b39002970b09733, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 9170f1da-a78f-4ace-a9c8-b82beed35985
+    characterSpr: {fileID: 21300000, guid: b15c2af56dae3fa45a3b6c36e3107e11, type: 3}
+    characterName: Belicus
+    dialogueText: "\"Perd\xF3n.\""
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 122558
+      y: 1815
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: bd357754d64b4fc43b17c1dbee28c192, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: e3f1b813-590d-491e-87b3-31c79983d4f3
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: 01fe23fdd72a1c44894bf250ef1a6a5b, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 121472
+      y: 1815
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 21ef819761e158c4b85eb82071479c7d, type: 3}

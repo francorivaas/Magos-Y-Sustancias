@@ -1,0 +1,374 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: somewhat sharp
+  m_EditorClassIdentifier: 
+  links:
+  - guid: b3480bd2-1d9b-4edd-9d30-055f992b6429
+    targetGuid: 592bd898-fa4d-4dd3-88c5-1d7750b42f53
+    portId: 0
+  - guid: 592bd898-fa4d-4dd3-88c5-1d7750b42f53
+    targetGuid: 1d0b7b6e-c6f7-4b42-906b-88c1b7b2b27c
+    portId: 1
+  - guid: 1d0b7b6e-c6f7-4b42-906b-88c1b7b2b27c
+    targetGuid: d723cf6c-ab10-49d3-8cfc-fce4a0c66994
+    portId: 2
+  - guid: d723cf6c-ab10-49d3-8cfc-fce4a0c66994
+    targetGuid: 1753a4a8-f033-4ea6-8e01-8ff64b61a685
+    portId: 3
+  - guid: 1753a4a8-f033-4ea6-8e01-8ff64b61a685
+    targetGuid: de9fcf20-1867-4576-8bf6-802c202ba715
+    portId: 4
+  - guid: de9fcf20-1867-4576-8bf6-802c202ba715
+    targetGuid: 4449b0d1-f6f7-4d52-b3c9-059d79dd746a
+    portId: 5
+  - guid: 4449b0d1-f6f7-4d52-b3c9-059d79dd746a
+    targetGuid: 86591098-8138-4481-98eb-0e5767c67c3f
+    portId: 6
+  - guid: 563aa581-4ad5-4147-9622-d3566c04d1e2
+    targetGuid: c2a5b2e9-90b5-4338-8160-7ba230cecbd7
+    portId: 7
+  - guid: fe4fdde5-571f-48c6-a155-e0e9d0f09f96
+    targetGuid: 6324adc3-ba17-45b5-ab36-0f20d508173e
+    portId: 8
+  - guid: 6324adc3-ba17-45b5-ab36-0f20d508173e
+    targetGuid: 3083545b-97a9-4e5d-ba16-7c6bf1224209
+    portId: 9
+  - guid: 3083545b-97a9-4e5d-ba16-7c6bf1224209
+    targetGuid: 8fe384cb-324b-4491-b9a0-b159d03b5cc7
+    portId: 10
+  - guid: 8fe384cb-324b-4491-b9a0-b159d03b5cc7
+    targetGuid: fbc5c4b3-31f3-4863-bef1-ea60dd4ac653
+    portId: 11
+  - guid: fbc5c4b3-31f3-4863-bef1-ea60dd4ac653
+    targetGuid: c26ea89f-5d2b-4f4a-9ea0-a0c73d2746c2
+    portId: 12
+  - guid: fbc5c4b3-31f3-4863-bef1-ea60dd4ac653
+    targetGuid: 17c9472f-0cca-4af8-8bc8-3ee6c31806a5
+    portId: 13
+  - guid: 86591098-8138-4481-98eb-0e5767c67c3f
+    targetGuid: 563aa581-4ad5-4147-9622-d3566c04d1e2
+    portId: 14
+  - guid: c2a5b2e9-90b5-4338-8160-7ba230cecbd7
+    targetGuid: fe4fdde5-571f-48c6-a155-e0e9d0f09f96
+    portId: 15
+  nodes:
+  - guid: b3480bd2-1d9b-4edd-9d30-055f992b6429
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: 970843439531cf84eaffd48c2e8b793e, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 73
+      y: -79
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 592bd898-fa4d-4dd3-88c5-1d7750b42f53
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Tengo un pasatiempo extra\xF1o..."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 602
+      y: 0
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1d0b7b6e-c6f7-4b42-906b-88c1b7b2b27c
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "o al menos eso cree el doctor Warren, especialista en\_psiquiatr\xEDa."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1101
+      y: 0
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d723cf6c-ab10-49d3-8cfc-fce4a0c66994
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: pero lo que yo creo... bueno...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1600
+      y: 0
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1753a4a8-f033-4ea6-8e01-8ff64b61a685
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "digamos que no hab\xEDa pensado en lo particular de mi pasatiempo
+      hasta que \xE9l\_me\_lo\_se\xF1al\xF3..."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2122
+      y: 67
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: de9fcf20-1867-4576-8bf6-802c202ba715
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "tal vez eso sirva como evidencia de que lo que dice\_es\_cierto."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2621
+      y: 67
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 4449b0d1-f6f7-4d52-b3c9-059d79dd746a
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "tal vez tenga raz\xF3n."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3161
+      y: 131
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 563aa581-4ad5-4147-9622-d3566c04d1e2
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: Simplemente me gusta... afeitarme...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4228
+      y: 224
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: fe4fdde5-571f-48c6-a155-e0e9d0f09f96
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: Aunque nunca fui especialmente velludo...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5284
+      y: 327
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8fe384cb-324b-4491-b9a0-b159d03b5cc7
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Y es all\xED cuando comienza la parte divertida..."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6902
+      y: 502
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: fbc5c4b3-31f3-4863-bef1-ea60dd4ac653
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "\xBFPor qu\xE9 acabaste en el hospital?"
+    - "\xBFCu\xE1l es la parte divertida?"
+    nodePosition:
+      serializedVersion: 2
+      x: 7401
+      y: 502
+      width: 499
+      height: 369
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 17c9472f-0cca-4af8-8bc8-3ee6c31806a5
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "\xBFY t\xFA qui\xE9n eres?\t"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7971
+      y: 689
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c26ea89f-5d2b-4f4a-9ea0-a0c73d2746c2
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "\xBFY t\xFA qui\xE9n eres?\t"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7971
+      y: 384
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 86591098-8138-4481-98eb-0e5767c67c3f
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "tal vez deb\xED haber pedido su ayuda antes de terminar en el
+      hospital con tantas drogas encima que apenas pod\xEDa\_respirar..."
+    backgroundSpr: {fileID: 21300000, guid: bab19a63133b3624bae586af11511894, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3688
+      y: 184
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 7ee8e92e52bb51542a0ff945124773f5, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: c2a5b2e9-90b5-4338-8160-7ba230cecbd7
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: Con mucha fuerza...
+    backgroundSpr: {fileID: 21300000, guid: 81adb3fc7e522004bbb8805d32567046, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4742
+      y: 279
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 7ee8e92e52bb51542a0ff945124773f5, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 3083545b-97a9-4e5d-ba16-7c6bf1224209
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "De mi est\xF3mago..."
+    backgroundSpr: {fileID: 21300000, guid: 1bac874e86263fb41938edee428a20cd, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6403
+      y: 502
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 7ee8e92e52bb51542a0ff945124773f5, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 6324adc3-ba17-45b5-ab36-0f20d508173e
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Me gusta hacerlo hasta sentir una casi imperceptible\_picadura...
+      en distintas zonas de mi rostro... de mi cuello..."
+    backgroundSpr: {fileID: 21300000, guid: d3d6cb11897210b4eb2fb900666f5d4e, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5851
+      y: 444
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 7ee8e92e52bb51542a0ff945124773f5, type: 3}
+    backgroundMusic: {fileID: 0}

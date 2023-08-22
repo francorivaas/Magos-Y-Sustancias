@@ -44,6 +44,7 @@ namespace VNCreator
         public float timerOne;
         public float timerTwo;
         public bool canCount;
+        public GameObject next;
 
         [SerializeField] public bool IsInstantText { get => GameOptions.isInstantText; set => GameOptions.isInstantText = value; }
 
@@ -163,7 +164,6 @@ namespace VNCreator
 
             base.NextNode(_choiceId);
             StartCoroutine(DisplayCurrentNode());
-
             nodesIn++;
         }
 
@@ -224,15 +224,18 @@ namespace VNCreator
             if (GameOptions.isInstantText)
             {
                 dialogueTxt.text = currentNode.dialogueText;
+                
             }
             else
             {
+                
                 char[] _chars = currentNode.dialogueText.ToCharArray();
                 string fullString = string.Empty;
                 for (int i = 0; i < _chars.Length; i++)
                 {
                     fullString += _chars[i];
                     dialogueTxt.text = fullString;
+
                     yield return new WaitForSeconds(0.01f/ GameOptions.readSpeed);
                 }
             }

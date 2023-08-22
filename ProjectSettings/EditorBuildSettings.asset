@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlayScene.unity
     guid: 8d66d048c6b5bd045a648e731464ebcc
-  - enabled: 1
+  - enabled: 0
     path: Assets/VNCreator/_Demo/Scenes/PlayScene_2.unity
     guid: c1d5cd95c60a9f642872fb7d60c7c6a9
   m_configObjects: {}

@@ -50,7 +50,6 @@ namespace VNCreator
 
         void Start()
         {
-            //GameOptions.isInstantText = true;
             endTransition.SetActive(true);
             canCount = true;
 

@@ -32,21 +32,25 @@ namespace VNCreator
         [Scene]
         public string mainMenu;
 
-        public int nodesIn;
-        public AudioSource music;
-        public Animator photoAnimator;
-        public GameObject nameTextFrame;
-        //public GameObject startTransition;
-        public GameObject endTransition;
-        //public GameObject curtains;
-        public Animator kidAppear;
+        [Header("My objects")]
 
+        [Header("Audio Source's")]
+        public AudioSource music;
+
+        [Header("Game Objects")]
+        public GameObject nameTextFrame;
+        public GameObject endTransition;
+        public GameObject tutorial;
+        
+        [Header("Animators")]
+        public Animator photoAnimator;
+        public Animator kidAppear;
+        
+        [Header("Variables")]
+        public int nodesIn;
         public float timerOne;
         public float timerTwo;
         public bool canCount;
-        public GameObject next;
-
-        [SerializeField] public bool IsInstantText { get => GameOptions.isInstantText; set => GameOptions.isInstantText = value; }
 
         void Start()
         {
@@ -81,11 +85,23 @@ namespace VNCreator
                 timerOne -= Time.deltaTime;
                 if (timerOne <= 0)
                 {
-                    //startTransition.SetActive(false);
                     endTransition.SetActive(false);
-                    print("lol");
+                    if (tutorial != null) 
+                        tutorial.SetActive(true);
+
                     canCount = false;
                     timerOne = timerTwo;
+                }
+
+                else
+                {
+                    if (tutorial != null)
+                    {
+                        tutorial.SetActive(false);
+
+                        if (Input.GetMouseButton(0))
+                            Destroy(tutorial);
+                    }
                 }
             }
 
@@ -104,6 +120,7 @@ namespace VNCreator
                 kidAppear.SetTrigger("Disappear");
                 photoAnimator.SetTrigger("Fadeout");
             }
+
             else if (nodesIn == 8)
             {
                 photoAnimator.SetBool("Shake", true);
@@ -145,12 +162,6 @@ namespace VNCreator
                 photoAnimator.SetBool("Shake", false);
                 music.Play();
             }
-
-            //else if (nodesIn == 86)
-            //{
-            //    canCount = true;
-            //    endTransition.SetActive(true);
-            //}
         }
 
         protected override void NextNode(int _choiceId)

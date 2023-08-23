@@ -20,7 +20,7 @@ namespace VNCreator
         void Start()
         {
             GameOptions.InitilizeOptions();
-            GameOptions.isInstantText = true;
+            GameOptions.isInstantText = false;
 
             if(musicVolumeSlider != null)
             {

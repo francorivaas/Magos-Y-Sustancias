@@ -11,23 +11,29 @@ namespace VNCreator
         [Header("Text")]
         public Text characterNameTxt;
         public Text dialogueTxt;
+
         [Header("Visuals")]
         public Image characterImg;
         public Image backgroundImg;
+
         [Header("Audio")]
         public AudioSource musicSource;
         public AudioSource soundEffectSource;
+
         [Header("Buttons")]
         public Button nextBtn;
         public Button previousBtn;
         public Button saveBtn;
         public Button menuButton;
+
         [Header("Choices")]
         public Button choiceBtn1;
         public Button choiceBtn2;
         public Button choiceBtn3;
+
         [Header("End")]
         public GameObject endScreen;
+
         [Header("Main menu")]
         [Scene]
         public string mainMenu;
@@ -41,6 +47,7 @@ namespace VNCreator
         public GameObject nameTextFrame;
         public GameObject endTransition;
         public GameObject tutorial;
+        public GameObject transitionTwo;
         
         [Header("Animators")]
         public Animator photoAnimator;
@@ -51,13 +58,18 @@ namespace VNCreator
         public float timerOne;
         public float timerTwo;
         public bool canCount;
+        public bool canOnlyCount;
+        public bool canContinue;
 
         void Start()
         {
             endTransition.SetActive(true);
+            
             canCount = true;
+            canContinue = true;
 
             nextBtn.onClick.AddListener(delegate { NextNode(0); });
+
             if(previousBtn != null)
                 previousBtn.onClick.AddListener(Previous);
             if(saveBtn != null)
@@ -86,7 +98,8 @@ namespace VNCreator
                 if (timerOne <= 0)
                 {
                     endTransition.SetActive(false);
-                    if (tutorial != null) 
+
+                    if (tutorial != null)
                         tutorial.SetActive(true);
 
                     canCount = false;
@@ -105,25 +118,40 @@ namespace VNCreator
                 }
             }
 
+            if (canOnlyCount)
+            {
+                timerOne -= Time.deltaTime;
+
+                if (timerOne <= 0)
+                {
+                    photoAnimator.SetBool("Interact", true);
+                    timerOne = timerTwo;
+                    canOnlyCount = false;
+                    canContinue = true;
+                }
+            }
+
             if (nodesIn == 1)
             {
-                canCount = true;
+                tutorial.SetActive(false);
+
                 if (kidAppear != null)
                 {
                     kidAppear.gameObject.SetActive(true);
                     kidAppear.SetTrigger("Appear");
                 }
             }
-           
+
             if (nodesIn == 7)
             {
                 kidAppear.SetTrigger("Disappear");
-                photoAnimator.SetTrigger("Fadeout");
+                photoAnimator.SetBool("Angry Fast", true);
             }
 
             else if (nodesIn == 8)
             {
                 photoAnimator.SetBool("Shake", true);
+                photoAnimator.SetBool("Angry Fast", false);
                 music.Stop();
             }
 
@@ -144,9 +172,27 @@ namespace VNCreator
                 photoAnimator.SetBool("Shake", false);
                 music.Play();
             }
+            
+            if (nodesIn == 24)
+            {
+                if (transitionTwo != null)
+                    transitionTwo.SetActive(true);
+
+                Destroy(transitionTwo, 1.5f);
+
+                canOnlyCount = true;
+                canContinue = false;
+                nodesIn += 2;
+            }
+
+            if (nodesIn == 27)
+            {
+                photoAnimator.SetBool("Interact", false);
+            }
 
             else if (nodesIn == 33)
             {
+                photoAnimator.SetBool("Interact", false);
                 photoAnimator.SetBool("Angry", true);
             }
 
@@ -162,19 +208,35 @@ namespace VNCreator
                 photoAnimator.SetBool("Shake", false);
                 music.Play();
             }
+
+            else if (nodesIn == 86)
+            {
+                canOnlyCount = true;
+
+                photoAnimator.SetBool("Interact", true);
+            }
+
+            else if (nodesIn == 87)
+            {
+                photoAnimator.SetBool("Interact", false);
+                photoAnimator.SetBool("Angry Fast", false);
+            }
         }
 
         protected override void NextNode(int _choiceId)
         {
-            if (lastNode)
+            if (canContinue)
             {
-                endScreen.SetActive(true);
-                return;
-            }
+                if (lastNode)
+                {
+                    endScreen.SetActive(true);
+                    return;
+                }
 
-            base.NextNode(_choiceId);
-            StartCoroutine(DisplayCurrentNode());
-            nodesIn++;
+                base.NextNode(_choiceId);
+                StartCoroutine(DisplayCurrentNode());
+                nodesIn++;
+            }
         }
 
         IEnumerator DisplayCurrentNode()

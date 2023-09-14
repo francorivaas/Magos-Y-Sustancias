@@ -9,7 +9,7 @@ namespace VNCreator
         public static float musicVolume = 0.5f;
         public static float sfxVolume = 0.5f;
         public static float readSpeed = 0.5f;
-        public static bool isInstantText = false;
+        public static bool isInstantText;
 
         public static void InitilizeOptions()
         {
